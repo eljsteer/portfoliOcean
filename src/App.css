@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+#navbarHeader {
+  list-style: none;
+  font-size: 24px;
+}
+
+.app-text {
+  font-size: 24px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
