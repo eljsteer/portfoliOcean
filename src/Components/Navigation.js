@@ -1,15 +1,14 @@
 import React from "react";
 import { NavList } from "./NavList";
-import { NavLink } from "react-dom";
-
+import { Link } from "react-router-dom";
 
 function Navigation() {
   const navbarList = NavList.map(({name, url}, index) => {
     return (
       <li key={index} className="nav-item navbar-text">
-        <NavLink to={url} className="nav-link" activeClass="active" spy={true} smooth={true}>
+        <Link to={url} className="nav-link">
           {name}
-        </NavLink>
+        </Link>
       </li>
     )
   })
