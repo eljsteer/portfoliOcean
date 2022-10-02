@@ -3,13 +3,23 @@
 }
 
 .opacity {
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
 #heroimg {
-  background-image: url(./Assets/images/ivan-bandura-aeuAn9A6rvY-unsplash.jpg);
+  /* background-image: url(./Assets/images/ivan-bandura-aeuAn9A6rvY-unsplash.jpg); */
+  width: 100%;
+  height: auto;
   background-repeat: no-repeat;
-  background-size: auto;
+}
+
+#ContactForm {
+  padding: 100px 0px;
+}
+
+#aboutPhoto {
+  border-radius: 100%;
+  padding: 100px 0px;
 }
 
 /* Font Styles */
@@ -23,10 +33,24 @@
 
 .darkModeText {
   color: white;
-  opacity: 1;
 }
 
-/* Logo Image Styles */
+.navbar-text {
+  padding: 0px 10px;
+}
+
+.footer {
+  position:absolute;
+  bottom: 0;
+}
+
+
+
+/* 
+>>--------->>->>--------->>
+    REACT STANDARD CSS 
+>>--------->>->>--------->>
+*/
 .App-logo {
   height: 40vmin;
   pointer-events: none;

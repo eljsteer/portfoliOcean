@@ -6,14 +6,15 @@ import About from "./Components/Views/About";
 import Projects from "./Components/Views/Projects";
 import Resume from "./Components/Views/Resume";
 import Contact from "./Components/Views/Contact";
+import Test from "./Components/Views/Test";
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-// import herobkgroundImage from "./Assets/images/ivan-bandura-aeuAn9A6rvY-unsplash.jpg"
+import herobkgroundImage from "./Assets/images/background/ivan-bandura-aeuAn9A6rvYTop-unsplash.jpg"
 
 function App() {
   return (
-    <div className="App"> 
-      <div id="heroimg">
+    <div className="App d-flex"> 
+      <div id="heroimg" style={{ backgroundImage: `url(${herobkgroundImage})` }}>
         <Router>
           <Header />   
             <Routes>
@@ -28,7 +29,8 @@ function App() {
             </Routes>
         </Router>
         <Footer />  
-      </div> 
+        <Test />
+      </div>
     </div>
   );
 }

@@ -4,7 +4,7 @@ export const NavList = [
     url: "/about",
     mainHeader: null
   }, {
-    name: "Portfolio",
+    name: "PORTFOLIO",
     url: "/portfolio",
     mainHeader: null
   }, {

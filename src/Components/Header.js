@@ -3,7 +3,7 @@ import Navigation from "./Navigation";
 
 function Header() {
   return (
-    <nav className="navbar navbar-expand-lg bg-dark opacity" id="navbar">
+    <nav className="navbar navbar-expand-lg bg-dark opacity" id="navHeader">
       <div className="container-fluid justify-content-center">
         <div className="row">
           {/* <a class="nav-link" href="/"><img id="logo-1" src="/"></a> */}

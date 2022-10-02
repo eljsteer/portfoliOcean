@@ -2,12 +2,12 @@ import React from 'react';
 
 function Contact() {
     return (
-      <div className="row">
-        <div className="col-md-6" id="ContactForm">
+      <div className="row d-flex justify-content-center">
+        <div className="col-md-6 justify-content-center" id="ContactForm">
         
         <h2 className="ContactHeader">Contact Me</h2>
     
-        <form className="form">
+        <form className="form col-6 justify-content-center">
           <div className="form-group">
             <label for="NameContact" id="ContactLabels">Name:</label>
             <input type="text" className="form-control" id="NameContact" placeholder="Enter name"/>
