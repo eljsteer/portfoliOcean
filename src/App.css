@@ -6,6 +6,13 @@
   opacity: 0.5;
 }
 
+#heroimg {
+  background-image: url(./Assets/images/ivan-bandura-aeuAn9A6rvY-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+/* Font Styles */
 .homeHeader {
   font-size: 1.5rem;
 }
@@ -14,6 +21,12 @@
   font-size: 30px;
 }
 
+.darkModeText {
+  color: white;
+  opacity: 1;
+}
+
+/* Logo Image Styles */
 .App-logo {
   height: 40vmin;
   pointer-events: none;

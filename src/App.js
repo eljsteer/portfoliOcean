@@ -8,24 +8,27 @@ import Resume from "./Components/Views/Resume";
 import Contact from "./Components/Views/Contact";
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import herobkgroundImage from "./Assets/images/ivan-bandura-aeuAn9A6rvY-unsplash.jpg"
 
 function App() {
   return (
     <div className="App"> 
-      <Router>
-        <Header />   
-          <Routes>
-            {/* <Route 
-              path="/"
-              element={<Home />}
-            /> */}
-            <Route path="/about" element={ <About /> } />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/resume" element={<Resume />} />
-          </Routes>
-      </Router>
-      <Footer />   
+      <div id="heroimg">
+        <Router>
+          <Header />   
+            <Routes>
+              {/* <Route 
+                path="/"
+                element={<Home />}
+              /> */}
+              <Route path="/about" element={ <About /> } />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/resume" element={<Resume />} />
+            </Routes>
+        </Router>
+        <Footer />  
+      </div> 
     </div>
   );
 }
