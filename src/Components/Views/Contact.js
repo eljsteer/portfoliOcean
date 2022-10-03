@@ -1,31 +1,29 @@
 import React from 'react';
 
+
 function Contact() {
     return (
-      <div className="row d-flex justify-content-center">
-        <div className="col-md-6 justify-content-center" id="ContactForm">
-        
-        <h2 className="ContactHeader">Contact Me</h2>
-    
-        <form className="form col-6 justify-content-center">
+      <div className="container-fluid flex-column d-flex moreSpace">
+        <div id="ContactForm">
+          <h2 className="ContactHeader">Contact Me</h2>
+        </div>
+        <form className="form container">
           <div className="form-group">
-            <label for="NameContact" id="ContactLabels">Name:</label>
+            <label for="NameContact" className="ContactLabels">Name:</label>
             <input type="text" className="form-control" id="NameContact" placeholder="Enter name"/>
           </div>
           <div className="form-group">
-            <label for="EmailContact" id="ContactLabels">Email address:</label>
+            <label for="EmailContact" className="ContactLabels">Email address:</label>
             <input type="email" className="form-control" id="EmailContact" aria-describedby="emailHelp" placeholder="Enter email"/>
           </div>
           <div className="form-group">
-            <label for="ContactMessage" id="ContactLabels">Message:</label>
+            <label for="ContactMessage" className="ContactLabels">Message:</label>
             <textarea type="text" className="form-control" id="ContactMessage" placeholder=" Enter message"/>
           </div>
           <br />
           <button type="submit" className="btn btn-outline-light" id="SubmitButton">Submit</button>
         </form>
-        <br />
       </div>
-    </div>
     );
 }
 

@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
-// import Home from "./Components/Views/Home";
+import Home from "./Components/Views/Home";
 import About from "./Components/Views/About";
 import Projects from "./Components/Views/Projects";
 import Resume from "./Components/Views/Resume";
@@ -13,24 +13,20 @@ import herobkgroundImage from "./Assets/images/background/ivan-bandura-aeuAn9A6r
 
 function App() {
   return (
-    <div className="App d-flex"> 
-      <div id="heroimg" style={{ backgroundImage: `url(${herobkgroundImage})` }}>
+    <div className="App d-flex flex-column"> 
+      <img id="heroimg" style={{ backgroundImage: `url(${herobkgroundImage})`}} alt="background"/>
         <Router>
           <Header />   
             <Routes>
-              {/* <Route 
-                path="/"
-                element={<Home />}
-              /> */}
-              <Route path="/about" element={ <About /> } />
-              <Route path="/projects" element={<Projects />} />
+              <Route path="/about" element={ <About /> } />     
+              <Route path="/portfolio" element={<Projects />} />         
+              <Route path="/" element={<Home />}/>              
               <Route path="/contact" element={<Contact />} />
               <Route path="/resume" element={<Resume />} />
             </Routes>
         </Router>
         <Footer />  
         <Test />
-      </div>
     </div>
   );
 }

@@ -1,9 +1,15 @@
 import React from 'react';
+import { ProjectData } from "../contentData";
+import ProjectCard from '../projectCard';
 
 function Projects() {
-    return (
-    <div>
-        <h1>Projects</h1>
+  return (
+    <div className="container">
+      <div>
+        {ProjectData.map(project => (
+          <ProjectCard key={project.id} project={project} />
+          ))}
+      </div>
     </div>
     );
 }

@@ -1,10 +1,11 @@
 import React from 'react';
+import { HomeData } from '../contentData';
 
 function Home() {
     return (
-    <div>
-        <h3>Web Developer</h3>
-        <p> Avid Web Developer, Lover of Mother Earth, with a curious and analytical mind</p>
+    <div className="moreSpace" >
+        <h3 className="moreSpace">Software Developer</h3>
+        <p>{HomeData.theAllure}</p>
     </div>
     );
 }
