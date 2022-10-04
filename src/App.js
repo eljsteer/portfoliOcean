@@ -14,7 +14,8 @@ import herobkgroundImage from "./Assets/images/background/ivan-bandura-aeuAn9A6r
 function App() {
   return (
     <div className="App d-flex flex-column"> 
-      <img id="heroimg" style={{ backgroundImage: `url(${herobkgroundImage})`}} alt="background"/>
+      {/* <img id="heroimg" style={{ backgroundImage: `url(${herobkgroundImage})`}} alt="background"/> */}
+      {/* <img src={herobkgroundImage} id="heroimg" alt="BackgrounImg"> */}
         <Router>
           <Header />   
             <Routes>

@@ -117,4 +117,4 @@ const ResumeData = [
     LinkedIn: "https://www.linkedin.com/in/devjs-jason-steer/"
   }
 
-export {HomeData, AboutData, ProjectData, ResumeData, ContactData};
+export { HomeData, AboutData, ProjectData, ResumeData, ContactData };

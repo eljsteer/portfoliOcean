@@ -1,16 +1,16 @@
 import React from 'react';
-import { ProjectData } from "./contentData"
+// const testPath = "../Assets/images/projects/passwordGenie-img.jpg"
 
-function ProjectCard() {
+function ProjectCard({project}) {
+  // const imagePath = project.image;
+
     return (
-    <div>
-        <h1 className="moreSpace">Portfolio Projects</h1>
-        <a href={ProjectData.livePreview} className="card text-bg-dark"><img src={process.env.PUBLIC_URL + ProjectData.image} className="card-img" alt={ProjectData.alt}/></a>
-          <div className="card-img-overlay">
-            <h5 className="card-title">{ProjectData.name}</h5>
-            <p><small>{ProjectCard.technologies}</small></p>
-            <img src={process.env.PUBLIC_URL + ProjectData.image} className="card-img" alt={ProjectData.alt}/>
-          </div>
+    <div className="card" key={project.name}>
+      <img src={project.image} className="card-img" alt={project.alt}/>
+        <div className="card-img-overlay">
+          <h5 className="card-title">{project.name}</h5>
+          <p><small>{project.technologies}</small></p>
+        </div>
     </div>
     );
 }
