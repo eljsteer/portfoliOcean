@@ -1,3 +1,7 @@
+* {
+  color: white;
+}
+
 .App {
   text-align: center;
 }
@@ -8,8 +12,9 @@
 
 #heroimg {
   /* background-image: url(./Assets/images/ivan-bandura-aeuAn9A6rvY-unsplash.jpg); */
-  height: auto;
+  height: 300vh;
   background-repeat: no-repeat;
+  object-fit: fill;
 }
 
 .moreSpace {
@@ -27,19 +32,41 @@
   font-size: 1.5em;
 }
 
-.darkModeText {
-  color: white;
-}
-
 .navbar-text {
   padding: 0px 10px;
 }
 
-/* .footer {
-  bottom: 0;
-} */
+/* 
+>>--------->>->>--------->>
+    Projects CSS
+>>--------->>->>--------->>
+*/
+.projectImg {
+  height: 100%;
+  object-fit: cover;
+}
 
+.imageOverlay {
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
 
+.imageOverlay > * {
+  transform: translateY(20px);
+  transition: transform 0.3s;
+}
+
+.imageOverlay:hover {
+  opacity: 1;
+}
+.imageOverlay:hover > * {
+  transform: translateY(0);
+}
 
 /* 
 >>--------->>->>--------->>

@@ -6,7 +6,6 @@ import About from "./Components/Views/About";
 import Projects from "./Components/Views/Projects";
 import Resume from "./Components/Views/Resume";
 import Contact from "./Components/Views/Contact";
-import Test from "./Components/Views/Test";
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import herobkgroundImage from "./Assets/images/background/ivan-bandura-aeuAn9A6rvYTop-unsplash.jpg"
@@ -14,8 +13,7 @@ import herobkgroundImage from "./Assets/images/background/ivan-bandura-aeuAn9A6r
 function App() {
   return (
     <div className="App d-flex flex-column"> 
-      {/* <img id="heroimg" style={{ backgroundImage: `url(${herobkgroundImage})`}} alt="background"/> */}
-      {/* <img src={herobkgroundImage} id="heroimg" alt="BackgrounImg"> */}
+      <div id="heroimg" style={{ backgroundImage: `url(${herobkgroundImage})`}} alt="background">
         <Router>
           <Header />   
             <Routes>
@@ -26,8 +24,8 @@ function App() {
               <Route path="/resume" element={<Resume />} />
             </Routes>
         </Router>
-        <Footer />  
-        <Test />
+        <Footer />
+      </div>
     </div>
   );
 }

@@ -5,7 +5,7 @@ function Contact() {
     return (
       <div className="container-fluid flex-column d-flex moreSpace">
         <div id="ContactForm">
-          <h2 className="ContactHeader">Contact Me</h2>
+          <h2 className="moreSpace ContactHeader">Contact Me</h2>
         </div>
         <form className="form container">
           <div className="form-group">

@@ -6,7 +6,7 @@ function Navigation() {
   const navbarList = NavList.map(({name, url, mainHeader}, index) => {
     return (
       <li key={index} className="nav-item navbar-text" id="navbarHeader">
-        <Link to={url} className={mainHeader ? ( "nav-link homeHeader darkModeText") : ("nav-link darkModeText")}>
+        <Link to={url} className={mainHeader ? ( "nav-link homeHeader") : ("nav-link")}>
           {name}
         </Link>
       </li>
@@ -14,7 +14,7 @@ function Navigation() {
   })
 
   return (
-    <div className="collapse navbar-collapse justify-content-center row" id="navbarNavMenu">
+    <div className="collapse navbar-collapse row" id="navbarNavMenu">
         <ul className="navbar-nav">
           {navbarList}
         </ul>

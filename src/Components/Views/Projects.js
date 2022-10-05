@@ -4,13 +4,13 @@ import ProjectCard from '../projectCard';
 
 function Projects() {
   return (
-    <div className="container">
+    <div className="container-fluid text-center">
       <h1 className="moreSpace">Portfolio Projects</h1>
-      <div>
-        {ProjectData.map(project => (
-          <ProjectCard key={project.id} project={project}/>
-          ))}
-      </div>
+        <div className="row justify-content-center" >
+          {ProjectData.map(project => (
+            <ProjectCard key={project.id} project={project}/>
+            ))}
+        </div>
     </div>
     );
 }
