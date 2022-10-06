@@ -80,34 +80,39 @@ const AboutData = {
     Role: "Full Stack Web Developer",
   }
 
-const ResumeData = [
+const SkillsData = [
   {
+    id: 1,
     name:"HTML",
-    icon:""
+    icon:"../Assets/images/resume/icons8-html-5-100.png"
   }, {
+    id: 2,
     name:"CSS & Bootstrap",
-    icon:""
+    icon:"../Assets/images/resume/icons8-css3-100.png"
   }, {
+    id: 3,
     name:"Javscript",
-    icon:""
+    icon:"../Assets/images/resume/icons8-javascript-100.png"
   }, {
+    id: 4,
     name:"NodeJS",
-    icon:""
+    icon:"../Assets/images/resume/icons8-node-js-100.png"
   }, {
+    id: 5,
     name:"MySQL",
-    icon:""
+    icon:"../Assets/images/resume/icons8-mysql-100.png"
   }, {
+    id: 6,
     name:"MongoDB",
-    icon:""
+    icon:"../Assets/images/resume/mongodb.png"
   }, {
-    name:"NoSQL",
-    icon:""
-  }, {
+    id: 7,
     name:"React",
-    icon:""
+    icon:"../Assets/images/resume/icons8-react-native-100.png"
   }, {
+    id: 8,
     name:"Git",
-    icon:""
+    icon:"../Assets/images/resume/icons8-github-100.png"
   }
 ]
 
@@ -117,4 +122,4 @@ const ResumeData = [
     LinkedIn: "https://www.linkedin.com/in/devjs-jason-steer/"
   }
 
-export { HomeData, AboutData, ProjectData, ResumeData, ContactData };
+export { HomeData, AboutData, ProjectData, SkillsData, ContactData };
