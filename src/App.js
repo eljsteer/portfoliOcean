@@ -8,7 +8,7 @@ import Resume from "./Components/Views/Resume";
 import Contact from "./Components/Views/Contact";
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import herobkgroundImage from "./Assets/images/background/ivan-bandura-aeuAn9A6rvYTop-unsplash.jpg"
+import herobkgroundImage from "./Assets/backgroundImage/ivan-bandura-aeuAn9A6rvYTop-unsplash.jpg"
 
 function App() {
   return (

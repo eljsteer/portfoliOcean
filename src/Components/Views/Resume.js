@@ -4,11 +4,13 @@ import { SkillsData } from '../contentData';
 function Resume(skills) {
     return (
     <div>
-        <h1>Resume</h1>
-        <div className="row justify-content-center" >
-          {SkillsData.map(skills => (
-            <img className="resumeIcon" src={process.env.PUBLIC_URL + `${skills.icon}`}alt={skills.name}/>
-            ))}
+        <h1 className="moreSpace">My Web Development Skills</h1>
+        <div className="d-flex justify-content-center">
+          <div className="row wrapper col-6 justify-content-center" >
+            {SkillsData.map(skills => (
+              <img className="resumeIcon" src={process.env.PUBLIC_URL + `${skills.icon}`} alt={skills.name}/>
+              ))}
+          </div>
         </div>
     </div>
     );

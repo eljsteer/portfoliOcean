@@ -6,7 +6,7 @@ const ProjectData = [
       technologies: ["Javascript | CSS | HTML "], 
       sourceCode: "https://github.com/eljsteer/password-genie", 
       livePreview: "https://eljsteer.github.io/password-genie/",
-      image: "../Assets/images/projects/passwordGenie-img.jpg",
+      image: "assets/images/projects/passwordGenie.jpg",
       alt: "Password Generator app"
     }, 
     {
@@ -16,7 +16,7 @@ const ProjectData = [
       technologies: ["OneApp Weather API | Javascript | CSS | HTML"], 
       sourceCode: "https://github.com/eljsteer/weather-man", 
       livePreview: "https://eljsteer.github.io/weather-man/",
-      image: "../Assets/images/projects/weatherMan-img.jpg",
+      image: "assets/images/projects/weatherMan.jpg",
       alt: "Weather app"
     }, 
     {
@@ -26,7 +26,7 @@ const ProjectData = [
       technologies: ["Marvel API | Google API | Javascript | CSS | HTML"], 
       sourceCode: "https://github.com/eljsteer/marvel_universe", 
       livePreview: "https://mdkgray.github.io/marvel_universe/",
-      image: "../Assets/images/projects/marvelUniverse-img.png",
+      image: "assets/images/projects/marvelUniverse.jpg",
       alt: "Marvel universe photo app"
     }, 
     {
@@ -36,7 +36,7 @@ const ProjectData = [
       technologies: ["Express.js | Node.js | Javascript | CSS | HTML"], 
       sourceCode: "https://github.com/eljsteer/noteStaker", 
       livePreview: "https://radiant-thicket-41331.herokuapp.com/",
-      image: "../Assets/images/projects/noteStaker-img.jpg",
+      image: "assets/images/projects/noteStaker.jpg",
       alt: "Note taking app"
     }, 
     {
@@ -46,7 +46,7 @@ const ProjectData = [
       technologies: ["Handlebars| mySQL | Sequelise |Express.js | Node.js| Javascript| CSS | HTML"], 
       sourceCode: "https://github.com/eljsteer/Movie-God", 
       livePreview: "https://limitless-island-08145.herokuapp.com/",
-      image: "../Assets/images/projects/movieGod-img.jpg",
+      image: "assets/images/projects/movieGod.jpg",
       alt: "Movies Central App"
     }, 
     {
@@ -56,7 +56,7 @@ const ProjectData = [
       technologies: ["MongoDB | Mongoose | Express.js | Node.js | Javascript"], 
       sourceCode: "https://github.com/eljsteer/Social-Mongoose_NoSqueal", 
       livePreview: null,
-      image: "../Assets/images/projects/socialMongoose-img.jpg",
+      image: "assets/images/projects/socialMongoose.jpg",
       alt: "Social media Software backend routes"
     }
 ]
@@ -84,35 +84,35 @@ const SkillsData = [
   {
     id: 1,
     name:"HTML",
-    icon:"../Assets/images/resume/icons8-html-5-100.png"
+    icon:"assets/images/skills/html-5-100.png"
   }, {
     id: 2,
     name:"CSS & Bootstrap",
-    icon:"../Assets/images/resume/icons8-css3-100.png"
+    icon:"../Assets/images/skills/css3-100.png"
   }, {
     id: 3,
     name:"Javscript",
-    icon:"../Assets/images/resume/icons8-javascript-100.png"
+    icon:"../Assets/images/skills/javascript-100.png"
   }, {
     id: 4,
     name:"NodeJS",
-    icon:"../Assets/images/resume/icons8-node-js-100.png"
+    icon:"../Assets/images/skills/node-js-100.png"
   }, {
     id: 5,
     name:"MySQL",
-    icon:"../Assets/images/resume/icons8-mysql-100.png"
+    icon:"../Assets/images/skills/mysql-100.png"
   }, {
     id: 6,
     name:"MongoDB",
-    icon:"../Assets/images/resume/mongodb.png"
+    icon:"../Assets/images/skills/mongodb-shield.png"
   }, {
     id: 7,
     name:"React",
-    icon:"../Assets/images/resume/icons8-react-native-100.png"
+    icon:"../Assets/images/skills/react-native-100.png"
   }, {
     id: 8,
     name:"Git",
-    icon:"../Assets/images/resume/icons8-github-100.png"
+    icon:"../Assets/images/skills/github-100.png"
   }
 ]
 

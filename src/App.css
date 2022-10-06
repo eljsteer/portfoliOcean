@@ -1,3 +1,8 @@
+:root {
+  --TextColor:#fff;
+  --ThemeColor:rgb(0, 204, 255);
+}
+
 * {
   color: white;
 }
@@ -46,6 +51,10 @@
   object-fit: cover;
 }
 
+.projectBox {
+  border: 10px solid #003E5C;
+}
+
 .imageOverlay {
   background: rgba(0, 0, 0, 0.85);
   display: flex;
@@ -66,6 +75,34 @@
 }
 .imageOverlay:hover > * {
   transform: translateY(0);
+}
+
+/* 
+>>--------->>->>--------->>
+    Resume & Skills CSS
+>>--------->>->>--------->>
+*/
+
+.resumeIcon {
+  margin: 20px;
+}
+
+.wrapper {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.wrapper img {
+  font-family: "Courier New", "Lucida Console", monospace;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #fff;
+    text-shadow:
+    0 0 10px var(--ThemeColor),
+    0 0 20px var(--ThemeColor),
+    0 0 40px var(--ThemeColor),
+    0 0 80px var(--ThemeColor),
+    0 0 120px var(--ThemeColor);
 }
 
 /* 
