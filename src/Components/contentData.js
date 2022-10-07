@@ -116,10 +116,14 @@ const SkillsData = [
   }
 ]
 
+  const resumeFile = {
+    file: "../../public/assets/resume/Jason_Steer_Resumé.pdf",
+  }
+
   const ContactData = {
     Email: "el.jsteer@gmail.com",
     Github: "https://github.com/eljsteer",
     LinkedIn: "https://www.linkedin.com/in/devjs-jason-steer/"
   }
 
-export { HomeData, AboutData, ProjectData, SkillsData, ContactData };
+export { HomeData, AboutData, ProjectData, SkillsData, resumeFile,ContactData };

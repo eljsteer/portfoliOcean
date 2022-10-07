@@ -1,9 +1,8 @@
 import React from "react";
-import { SkillsData } from '../contentData';
+import { SkillsData,resumeFile } from '../contentData';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-
-function Resume(skills) {
+function Resume() {
   // const [hovered, setHovered] = useState(false);
   // const toggleHover = () => setHovered(!hovered);
   // const classChange = hovered ? "hide": "show" ;
@@ -24,7 +23,7 @@ function Resume(skills) {
           </div>
         </div>
         <h1 className="moreSpace">My Web Development Skills</h1>
-        <button istype="button" class="btn btn-outline-light" id="downloadBttn"><i class="fa-regular fa-circle-arrow-down"></i>Download</button>
+        <link href={resumeFile.file} download><button istype="button" className="btn btn-outline-light" id="downloadBttn">Download</button></link>
     </div>
     );
 }
