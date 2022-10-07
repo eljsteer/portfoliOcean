@@ -3,6 +3,10 @@
   --ThemeColor:rgb(0, 204, 255);
 }
 
+.hide {
+  display: none;
+}
+
 * {
   color: white;
 }
@@ -39,6 +43,9 @@
 
 .navbar-text {
   padding: 0px 10px;
+}
+.bodyText {
+  font-size: 24px;
 }
 
 /* 
@@ -83,8 +90,23 @@
 >>--------->>->>--------->>
 */
 
+#downloadBttn {
+  width: 200px;
+  margin: 50px 0px;
+}
+
+#skillsContainer {
+  aspect-ratio: 6/4;
+  align-content: center;
+  align-items: center;
+  border: 3px solid #fff;
+  border-radius: 10%;
+}
+
 .resumeIcon {
-  margin: 20px;
+  margin: 30px;
+  max-width: 100px;
+  max-height: 100px;
 }
 
 .wrapper {
@@ -104,6 +126,43 @@
     0 0 80px var(--ThemeColor),
     0 0 120px var(--ThemeColor);
 }
+
+/* 
+>>--------->>->>--------->>
+    CONTACTS CSS
+>>--------->>->>--------->>
+*/
+
+.contactLabels {
+  margin: 50px 0px 15px 0px;
+  font-size: 24px;
+}
+
+#formContainer {
+  border: 3px solid #fff;
+  border-radius: 25px;
+}
+
+#contactDetails {
+  border: 3px solid #fff;
+}
+
+#submitButton {
+  border:3px solid #fff;
+  margin: 20px 0px ;
+}
+
+
+/* 
+>>--------->>->>--------->>
+    FOOTER  CSS 
+>>--------->>->>--------->>
+*/
+
+/* #footer {
+  position: sticky;
+  bottom: -100;
+} */
 
 /* 
 >>--------->>->>--------->>
