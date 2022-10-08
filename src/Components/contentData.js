@@ -55,7 +55,7 @@ const ProjectData = [
       description: "A Backend application with endroutes for a Social Media Application", 
       technologies: ["MongoDB | Mongoose | Express.js | Node.js | Javascript"], 
       sourceCode: "https://github.com/eljsteer/Social-Mongoose_NoSqueal", 
-      livePreview: null,
+      livePreview: "",
       image: "assets/images/projects/socialMongoose.jpg",
       alt: "Social media Software backend routes"
     }
