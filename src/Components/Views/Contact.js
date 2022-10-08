@@ -11,7 +11,7 @@ function Contact() {
     message: "",
   });
   const [errorMessage, setErrorMessage] = useState("");
-  const { name, email, message } = formState;
+  const { Name, Email, Message } = formState;
 
   function handleFormChange(event) {
     if (event.target.name === "email") {
@@ -47,27 +47,28 @@ function Contact() {
         <h2 className="moreSpace ContactHeader">Contact Me</h2>
       </div>
       <div id="contactContainer row">
-        <form id="formContainer" className="form container col-md-6 needs-validation" noValidate>
+        <form id="formContainer" className="form container col-md-6 needs-validation" novalidate>
           <div className="container d-flex justify-content-center">
             <div className="form-group col-lg-6">
-              <label for="NameContact" className="contactLabels form-label">Name:</label>
-              <input type="text" className="form-control" id="NameContact" onBlur={handleFormChange} placeholder="Enter name"/>
+              <label for="Name" className="contactLabels form-label">Name:</label>
+              <input type="text" className="form-control" id="Name" name="Name"onBlur={handleFormChange} aria-live="assertive" placeholder="Enter name" required/>
             </div>
           </div> 
           <div className="container d-flex justify-content-center">
             <div className="form-group col-lg-6">
-              <label for="EmailContact" className="contactLabels">Email address:</label>
-              <input type="email" className="form-control" id="EmailContact" onBlur={handleFormChange} placeholder="Enter email"/>
+              <label for="email" className="contactLabels">Email address:</label>
+              <input type="email" className="form-control" id="email" name="Email" onBlur={handleFormChange} aria-live="assertive" placeholder="Enter email" required/>
             </div>
           </div>
           <div className="container d-flex justify-content-center">
             <div className="form-group col-lg-8">
-              <label for="ContactMessage" className="contactLabels">Message:</label>
-              <textarea type="text" className="form-control" id="ContactMessage" onBlur={handleFormChange} rows="4" placeholder=" "/>
+              <label for="message" className="contactLabels">Message:</label>
+              <textarea type="text" className="form-control" id="message" name="Message" onBlur={handleFormChange} rows="4" aria-live="assertive" placeholder="Please enter your message " required/>
             </div>
           </div>
           <br />
           <button type="submit" className="btn btn-outline-light col-lg-3 col-md-3 col-sm-1" onSubmit={handleFormSubmit}  id="submitButton">Submit</button>
+          {(<p>{errorMessage}</p>)}
         </form>
       </div>
     </div>
