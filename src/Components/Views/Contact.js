@@ -1,8 +1,6 @@
 import React, {useState} from "react";
 import { validateEmail } from "../../Utils/helpers"
 
-
-
 function Contact() {
 
   const [formState, setFormState ] = useState({
@@ -18,6 +16,7 @@ function Contact() {
         const isValid = validateEmail(event.target.value);
         if (!isValid) {
             setErrorMessage("A Valid Email is Required");
+
         } else {
             setErrorMessage("");
         }
@@ -37,6 +36,7 @@ function Contact() {
   function handleFormSubmit(event) {
     event.preventDefault();
     if (!errorMessage) {
+
         console.log(formState);
     }
   }
@@ -47,28 +47,28 @@ function Contact() {
         <h2 className="moreSpace ContactHeader">Contact Me</h2>
       </div>
       <div id="contactContainer row">
-        <form id="formContainer" className="form container col-md-6 needs-validation" novalidate>
+        <form id="formContainer" className="form container col-md-6 needs-validation" noValidate>
           <div className="container d-flex justify-content-center">
             <div className="form-group col-lg-6">
-              <label for="Name" className="contactLabels form-label">Name:</label>
-              <input type="text" className="form-control" id="Name" name="Name"onBlur={handleFormChange} aria-live="assertive" placeholder="Enter name" required/>
+              <label htmlFor="validationDefault01" className="contactLabels form-label">Name:</label>
+              <input type="text" className="form-control" id="validationDefault01" name="Name" onBlur={handleFormChange} aria-live="assertive" placeholder="Enter name" required/>
             </div>
           </div> 
           <div className="container d-flex justify-content-center">
             <div className="form-group col-lg-6">
-              <label for="email" className="contactLabels">Email address:</label>
-              <input type="email" className="form-control" id="email" name="Email" onBlur={handleFormChange} aria-live="assertive" placeholder="Enter email" required/>
+              <label htmlFor="validationDefaultEmail" className="contactLabels">Email address:</label>
+              <input type="email" className="form-control" id="validationDefaultEmail" name="Email" onBlur={handleFormChange} aria-live="assertive" placeholder="Enter email" required/>
             </div>
           </div>
           <div className="container d-flex justify-content-center">
             <div className="form-group col-lg-8">
-              <label for="message" className="contactLabels">Message:</label>
-              <textarea type="text" className="form-control" id="message" name="Message" onBlur={handleFormChange} rows="4" aria-live="assertive" placeholder="Please enter your message " required/>
+              <label htmlFor="validationDefaultMessage" className="contactLabels">Message:</label>
+              <textarea type="text" className="form-control is-valid" id="validationDefaultMessage" name="Message" onBlur={handleFormChange} rows="4" aria-live="assertive" placeholder="Please enter your message " required/>
             </div>
           </div>
           <br />
           <button type="submit" className="btn btn-outline-light col-lg-3 col-md-3 col-sm-1" onSubmit={handleFormSubmit}  id="submitButton">Submit</button>
-          {(<p>{errorMessage}</p>)}
+          {errorMessage && (<p>{errorMessage}</p>)}
         </form>
       </div>
     </div>
