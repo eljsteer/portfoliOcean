@@ -1,5 +1,5 @@
 import React from "react";
-import { SkillsData,resumeFile } from '../contentData';
+import { SkillsData, resumeFile } from '../contentData';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Resume() {
@@ -23,12 +23,12 @@ function Resume() {
           </div>
         </div>
         <h1 className="moreSpace">My Web Development Skills</h1>
-        <link href={resumeFile.file} download><button istype="button" className="btn btn-outline-light" id="downloadBttn">Download</button></link>
+        <a href={resumeFile.file} download>
+          <button istype="button" className="btn btn-outline-light" id="downloadBttn">Download</button>
+        </a>
     </div>
     );
 }
 export default Resume;
-
-// TODO: link to download resume and add icons for skills
 
 // <a target="_blank" href="https://icons8.com/icon/23028/html-5">Html 5</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>

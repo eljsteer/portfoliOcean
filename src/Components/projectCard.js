@@ -10,6 +10,7 @@ function ProjectCard({project}) {
           <h5 className="card-title">{project.name}</h5>
           <p>{project.description}</p>
           <p><small>{project.technologies}</small></p>
+          <button type="button" class="btn btn-light">Light</button>
         </div>
       </div>
     );
