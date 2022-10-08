@@ -85,7 +85,9 @@
 }
 
 .appButtons {
-  margin: 30px;
+  margin:0 1em 0.8em 0;
+  max-width: 200px;
+  max-height: 100px;
 }
 
 /* 
@@ -109,8 +111,8 @@
 
 .resumeIcon {
   margin: 30px;
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 100%;
+  max-height: auto;
 }
 
 .wrapper {
