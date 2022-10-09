@@ -1,3 +1,15 @@
+const KeyProject = {
+    id: 0,
+    name: "", 
+    description: "", 
+    technologies: ["Javascript | CSS | HTML "], 
+    sourceCode: "", 
+    livePreview: "",
+    image: "",
+    alt: ""
+  }
+
+
 const ProjectData = [  
     {
       id: 1,
@@ -127,4 +139,4 @@ const SkillsData = [
     StackOverflow: "https://stackoverflow.com/users/20190347/eljsteer"
   }
 
-export { HomeData, AboutData, ProjectData, SkillsData, resumeFile, ContactData };
+export { HomeData, AboutData, ProjectData, SkillsData, resumeFile, ContactData, KeyProject };

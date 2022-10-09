@@ -14,15 +14,15 @@ function ProjectCard({project}) {
             (
             <div className="row">
               <a href={project.livePreview} target="_blank" rel="noopener noreferrer" className="appButtons">
-                <button type="button" class="btn btn-light">Deploy App</button>
+                <button type="button" className="btn btn-light">Deploy App</button>
               </a>
               <a href={project.sourceCode} target="_blank" rel="noopener noreferrer" className="appButtons">
-                <button type="button" class="btn btn-light">Github Repo</button>
+                <button type="button" className="btn btn-light">Github Repo</button>
               </a>
             </div>
             ) : (
             <a href={project.sourceCode} target="_blank" rel="noopener noreferrer" className="appButtons">
-              <button type="button" class="btn btn-light">Github Repo</button>
+              <button type="button" className="btn btn-light">Github Repo</button>
             </a>
             )}
           </div>

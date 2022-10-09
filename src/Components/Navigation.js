@@ -9,7 +9,7 @@ function Navigation() {
   const navbarList = NavList.map(({name, url, mainHeader}, index) => {
     return (
       <li key={index} className="nav-item navbar-text" id="navbarHeader">
-        <NavLink to={url} activeclassname="active" className={ mainHeader ? ( currentTab === url ? "currentPage nav-link homeHeader" : "none"): "nav-link"}>
+        <NavLink to={url} activeclassname="active" className={ mainHeader ? ( currentTab === url ? "currentPage nav-link homeHeader" : "none nav-link homeHeader"): "nav-link"}>
           {name}
         </NavLink>
       </li>
