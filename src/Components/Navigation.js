@@ -1,14 +1,17 @@
 import React from "react";
 import { NavList } from "./NavList";
-import { Link } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 function Navigation() {
+
+  let currentTab = useLocation().pathname;
+
   const navbarList = NavList.map(({name, url, mainHeader}, index) => {
     return (
       <li key={index} className="nav-item navbar-text" id="navbarHeader">
-        <Link to={url} className={mainHeader ? ( "nav-link homeHeader") : ("nav-link")}>
+        <NavLink to={url} activeclassname="active" className={ mainHeader ? ( currentTab === url ? "currentPage nav-link homeHeader" : "none"): "nav-link"}>
           {name}
-        </Link>
+        </NavLink>
       </li>
     )
   })

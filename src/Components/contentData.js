@@ -123,7 +123,8 @@ const SkillsData = [
   const ContactData = {
     Email: "el.jsteer@gmail.com",
     Github: "https://github.com/eljsteer",
-    LinkedIn: "https://www.linkedin.com/in/devjs-jason-steer/"
+    LinkedIn: "https://www.linkedin.com/in/devjs-jason-steer/",
+    StackOverflow: "https://stackoverflow.com/users/20190347/eljsteer"
   }
 
-export { HomeData, AboutData, ProjectData, SkillsData, resumeFile,ContactData };
+export { HomeData, AboutData, ProjectData, SkillsData, resumeFile, ContactData };

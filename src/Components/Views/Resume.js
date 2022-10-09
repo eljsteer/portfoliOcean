@@ -1,6 +1,5 @@
 import React from "react";
 import { SkillsData, resumeFile } from '../contentData';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Resume() {
   // const [hovered, setHovered] = useState(false);
