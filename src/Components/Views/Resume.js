@@ -9,7 +9,7 @@ function Resume() {
     <div>
         <h1 className="moreSpace">RESUME</h1>
         <div className="d-flex justify-content-center">
-          <div id="skillsContainer" className="row wrapper col-6 justify-content-center " >
+          <div id="skillsContainer" className="d-flex flex-row wrapper col-4 justify-content-center" >
             {SkillsData.map(skills => (
               <div 
                 // onMouseEnter={toggleHover}

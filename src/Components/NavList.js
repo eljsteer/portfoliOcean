@@ -9,15 +9,15 @@ export const NavList = [
     mainHeader: null
   }, {
     name: "JASON STEER",
-    url: "/",
+    url: "/home",
     mainHeader:"true"
   }, {
     name: "RESUME",
-    url: "resume",
+    url: "/resume",
     mainHeader: null
   }, {
     name: "CONTACT",
-    url: "contact",
+    url: "/contact",
     mainHeader: null
   }
 ]

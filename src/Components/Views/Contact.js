@@ -23,7 +23,6 @@ function Contact() {
             setErrorMessage("");
             setValState({Email:1, Name: valState.Name, Message: valState.Message})
 
-
         }
     } else if (event.target.name === "Name") {
         if (!event.target.value.length) {
@@ -56,11 +55,14 @@ function Contact() {
 
   return (
     <div className="container-fluid flex-column d-flex">
-      <div id="ContactForm">
+      <div id="ContactHeader">
         <h2 className="moreSpace ContactHeader">Contact Me</h2>
       </div>
-      <div id="contactContainer row">
-        <form id="formContainer" className="form container col-md-6 needs-validation" novalidate>
+      <div id="contactContainer">
+        {/* <div className="detailsContainer col-md-4">
+
+        </div> */}
+        <form id="formContainer" className="form container col-xl-4 col-lg-6 col-md-8 needs-validation" novalidate>
           <div className="container d-flex justify-content-center">
             <div className="form-group col-lg-6">
               <label htmlFor="validationDefault01" className="contactLabels form-label">Name:</label>
@@ -80,7 +82,7 @@ function Contact() {
             </div>
           </div>
           <br />
-          <button type="submit" className="btn btn-outline-light col-lg-3 col-md-3 col-sm-1" onSubmit={handleFormSubmit}  id="submitButton">Submit</button>
+          <button type="submit" className="btn btn-outline-light col-lg-3 col-md-3 col-sm-2" onSubmit={handleFormSubmit}  id="submitButton">Submit</button>
           {errorMessage && (<p>{errorMessage}</p>)}
         </form>
       </div>

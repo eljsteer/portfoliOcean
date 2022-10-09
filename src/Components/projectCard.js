@@ -12,7 +12,7 @@ function ProjectCard({project}) {
           <div>
             {project.livePreview ? 
             (
-            <div className="row">
+            <div className="d-flex flex-row">
               <a href={project.livePreview} target="_blank" rel="noopener noreferrer" className="appButtons">
                 <button type="button" className="btn btn-light">Deploy App</button>
               </a>

@@ -48,15 +48,40 @@
   font-size: 2em;
 }
 
-.nav-link {
-  color: white;
-}
 .navbar-text {
   padding: 0px 10px;
+  font-size: 20px;
+  color: white;
 }
 
+.navbar-text a {
+  color: #fff;
+}
+.navbar-text a:active {
+  color: orange;
+}
+
+.navbar-nav {
+  align-items: center;
+}
 .currentPage {
   color:orange;
+}
+.navbar-toggler {
+  background-color: rgb(255, 255, 255);
+}
+
+.active {
+  color:#61dafb;
+}
+
+.navbar-toggler-icon {
+  color: black;
+  border-color: black;
+}
+
+#navHeader {
+  background: rgba(0, 0, 0, 0.35);
 }
 
 /* 
@@ -131,6 +156,7 @@
   align-items: center;
   border: 3px solid #fff;
   border-radius: 10%;
+  flex-wrap: nowrap;
 }
 
 .resumeIcon {
@@ -153,6 +179,10 @@
     CONTACTS CSS
 >>--------->>->>--------->>
 */
+
+.detailsContainer {
+  border: #fff solid 2px;
+}
 
 .contactLabels {
   margin: 50px 0px 15px 0px;
@@ -183,6 +213,10 @@
 .contactIcons:hover {
   box-shadow: 
     0px 0px 10px rgb(0, 204, 255);
+}
+
+#wLove {
+  white-space: pre;
 }
 
 /* 
