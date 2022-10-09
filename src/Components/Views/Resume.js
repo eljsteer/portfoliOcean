@@ -9,7 +9,7 @@ function Resume() {
     <div>
         <h1 className="moreSpace">RESUME</h1>
         <div className="d-flex justify-content-center">
-          <div id="skillsContainer" className="d-flex flex-row wrapper col-4 justify-content-center" >
+          <div id="skillsContainer" className="d-flex flex-row col-xxl-4 col-xl-6 col-lg-6 col-md-8 col-sm-10 wrapper justify-content-center" >
             {SkillsData.map(skills => (
               <div 
                 // onMouseEnter={toggleHover}
@@ -29,5 +29,3 @@ function Resume() {
     );
 }
 export default Resume;
-
-// <a target="_blank" href="https://icons8.com/icon/23028/html-5">Html 5</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
