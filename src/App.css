@@ -218,9 +218,16 @@
 >>--------->>->>--------->>
 */
 
+#subtitle {
+  font-size: 1.3em;
+}
+
 #downloadBttn {
   width: 200px;
-  margin: 50px 0px;
+  margin-top: 10px;
+}
+.resumeDownload {
+  margin-top: 10px;
 }
 
 #skillsContainer {
@@ -228,9 +235,13 @@
   align-content: center;
   align-items: center;
   border: 3px solid #fff;
+  border-radius: 25px;
+  flex-wrap: wrap;
+}
+
+#resumeContainer {
+  border: 3px solid #fff;
   border-radius: 10%;
-  flex-wrap: nowrap;
-  margin: 20px
 }
 
 .resumeIcon {
@@ -250,10 +261,6 @@
     0 0 40px var(--ThemeColor),
     0 0 80px var(--ThemeColor),
     0 0 120px var(--ThemeColor);
-}
-
-#skillsContainer {
-  flex-wrap: wrap;
 }
 
 /* 
