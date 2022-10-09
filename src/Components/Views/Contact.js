@@ -1,7 +1,13 @@
 import React, {useState} from "react";
 import { validateEmail } from "../../Utils/helpers"
 
+
+
 function Contact() {
+
+  // const responsive = {
+  //   className: "col-xxl-4 col-xl-6 col-lg-6 col-md-8"
+  // }
 
   const [formState, setFormState ] = useState({
     name: "",
@@ -55,14 +61,14 @@ function Contact() {
 
   return (
     <div className="container-fluid flex-column d-flex">
-      <div id="ContactHeader">
-        <h2 className="moreSpace ContactHeader">Contact Me</h2>
+      <div>
+        <h2 className="moreSpace pageHeader">Contact Me</h2>
       </div>
       <div id="contactContainer">
         {/* <div className="detailsContainer col-md-4">
 
         </div> */}
-        <form id="formContainer" className="form container col-xl-4 col-lg-6 col-md-8 needs-validation" novalidate>
+        <form id="formContainer" className="form container col-xxl-4 col-xl-6 col-lg-6 col-md-8 needs-validation" novalidate>
           <div className="container d-flex justify-content-center">
             <div className="form-group col-lg-6">
               <label htmlFor="validationDefault01" className="contactLabels form-label">Name:</label>

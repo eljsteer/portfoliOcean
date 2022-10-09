@@ -7,7 +7,7 @@ function Resume() {
   // const classChange = hovered ? "hide": "show" ;
   return (
     <div>
-        <h1 className="moreSpace">RESUME</h1>
+        <h1 className="moreSpace pageHeader">Resume</h1>
         <div className="d-flex justify-content-center">
           <div id="skillsContainer" className="d-flex flex-row col-xxl-4 col-xl-6 col-lg-6 col-md-8 col-sm-10 wrapper justify-content-center" >
             {SkillsData.map(skills => (

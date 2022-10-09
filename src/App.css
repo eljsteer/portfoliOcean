@@ -32,6 +32,11 @@
   color: #fff;
 }
 
+.pageHeader {
+  font-size: 36px;
+}
+
+
 #heroimg {
   /* background-image: url(./Assets/images/ivan-bandura-aeuAn9A6rvY-unsplash.jpg); */
   height: 300vh;
@@ -86,16 +91,34 @@
 
 /* 
 >>--------->>->>--------->>
-    About Page CSS
+    HomePage CSS
+>>--------->>->>--------->>
+*/
+
+#homeHeader {
+  margin: 30px;
+}
+
+#homeImg {
+  margin: 20px;
+}
+
+/* 
+>>--------->>->>--------->>
+    About Me CSS
 >>--------->>->>--------->>
 */
 
 #aboutPhoto {
   border-radius: 100%;
   padding: 100px 0px;
-  max-width: 350px;
+  max-width: 100%;
+  height: auto;
 }
 
+#aboutMeDescr {
+  line-height: 2;
+}
 
 /* 
 >>--------->>->>--------->>
@@ -108,7 +131,11 @@
 }
 
 .projectBox {
-  border: 10px solid #003E5C;
+  border: 10px solid rgba(0, 229, 255, 0.3);
+}
+
+.projectsContainer {
+  flex-wrap: wrap;
 }
 
 .imageOverlay {

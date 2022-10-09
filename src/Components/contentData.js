@@ -74,7 +74,7 @@ const ProjectData = [
 ]
 
 const HomeData = {
-    animation: "",
+    animation: "assets/techWave.gif",
     header: "Jason Steer",
     theAllure: 
     `Avid Web Developer, Lover of Mother Earth, with a curious and analytical mind`,

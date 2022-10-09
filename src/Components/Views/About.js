@@ -8,9 +8,9 @@ function About() {
         <img src={process.env.PUBLIC_URL + '/assets/images/profile/sittingProf-resz1.jpg'} id="aboutPhoto" alt="devJS"></img>
       </div>
       <div className="d-flex justify-content-center">
-        <div className="col-7">
-          <h3>{AboutData.Role}</h3>
-          <p>{AboutData.Description}</p>
+        <div className="col-xxl-5 col-xl-5 col-lg-6 col-md-8">
+          <h3 className="moreSpace pageHeader">{AboutData.Role}</h3>
+          <p id="aboutMeDescr">{AboutData.Description}</p>
         </div>
       </div>
     </div>

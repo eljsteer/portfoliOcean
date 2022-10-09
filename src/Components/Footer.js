@@ -7,7 +7,7 @@ import { FaStackOverflow } from "react-icons/fa"
 
 function Footer() {
   return (
-  <div id="footer">
+  <div id="footer"  className="moreSpace">
     <div className="d-flex flex-row wrapper justify-content-center m-4">
       <a href={ContactData.Github} target="_blank" rel="noopener noreferrer" className="contactIcons m-3">
         <FaGithub size="3.5rem"/>
@@ -20,7 +20,6 @@ function Footer() {
       </a>
     </div>
     <h3 id="wLove">Created with <span>    ❤    </span> by eljsteer</h3>
-    {/* <link id="" href=""/><span className="navArrow">&#10685;</span> */}
   </div>
   )
 }

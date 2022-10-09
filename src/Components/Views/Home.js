@@ -3,9 +3,9 @@ import { HomeData } from '../contentData';
 
 function Home() {
     return (
-    <div className="moreSpace" >
-        <h3 className="moreSpace">Software Developer</h3>
-        <p>{HomeData.theAllure}</p>
+    <div>
+        <h3 className="moreSpace pageHeader">Software Developer</h3>
+        <img id="homeImg" src={process.env.PUBLIC_URL + HomeData.animation} alt=""/>
     </div>
     );
 }
