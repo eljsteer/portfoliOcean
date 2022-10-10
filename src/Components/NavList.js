@@ -9,7 +9,7 @@ export const NavList = [
     mainHeader: null
   }, {
     name: "JASON STEER",
-    url: "/",
+    url: "/home",
     mainHeader:"true"
   }, {
     name: "RESUME",
