@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 function ProjectCard({project}) {
     return (
@@ -13,17 +14,17 @@ function ProjectCard({project}) {
             {project.livePreview ? 
             (
             <div className="d-flex flex-row">
-              <a href={project.livePreview} target="_blank" rel="noopener noreferrer" className="appButtons">
+              <Link to={project.livePreview} target="_blank" rel="noopener noreferrer" className="appButtons">
                 <button type="button" className="btn btn-light">Deploy App</button>
-              </a>
-              <a href={project.sourceCode} target="_blank" rel="noopener noreferrer" className="appButtons">
+              </Link>
+              <Link to={project.sourceCode} target="_blank" rel="noopener noreferrer" className="appButtons">
                 <button type="button" className="btn btn-light">Github Repo</button>
-              </a>
+              </Link>
             </div>
             ) : (
-            <a href={project.sourceCode} target="_blank" rel="noopener noreferrer" className="appButtons">
+            <Link to={project.sourceCode} target="_blank" rel="noopener noreferrer" className="appButtons">
               <button type="button" className="btn btn-light">Github Repo</button>
-            </a>
+            </Link>
             )}
           </div>
         </div>

@@ -2,7 +2,7 @@
   "name": "portfolio.devjs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://eljsteer.github.io/Portfolio.DevJS/about",
+  "homepage": ".",
   "dependencies": {
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^13.5.0",

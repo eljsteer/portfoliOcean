@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { SkillsData, resumeFile } from '../contentData';
 
 function Resume() {
@@ -25,9 +26,9 @@ function Resume() {
               <div className="resumeDownload">
                 <h3 id="subtitle">Download Resume</h3>
                 <div>
-                  <a href={resumeFile.file} download>
+                  <Link to={resumeFile.file} download>
                     <button istype="button" className="btn btn-outline-light" id="downloadBttn">Download</button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
