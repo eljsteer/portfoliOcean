@@ -100,36 +100,36 @@ const SkillsData = [
   }, {
     id: 2,
     name:"CSS & Bootstrap",
-    icon:"../Assets/images/skills/css3-100.png"
+    icon:"assets/images/skills/css3-100.png"
   }, {
     id: 3,
     name:"Javscript",
-    icon:"../Assets/images/skills/javascript-100.png"
+    icon:"assets/images/skills/javascript-100.png"
   }, {
     id: 4,
     name:"NodeJS",
-    icon:"../Assets/images/skills/node-js-100.png"
+    icon:"assets/images/skills/node-js-100.png"
   }, {
     id: 5,
     name:"MySQL",
-    icon:"../Assets/images/skills/mysql-100.png"
+    icon:"assets/images/skills/mysql-100.png"
   }, {
     id: 6,
     name:"MongoDB",
-    icon:"../Assets/images/skills/mongodb-shield.png"
+    icon:"assets/images/skills/mongodb-shield.png"
   }, {
     id: 7,
     name:"React",
-    icon:"../Assets/images/skills/react-native-100.png"
+    icon:"assets/images/skills/react-native-100.png"
   }, {
     id: 8,
     name:"Git",
-    icon:"../Assets/images/skills/github-100.png"
+    icon:"assets/images/skills/github-100.png"
   }
 ]
 
   const resumeFile = {
-    file: "../../public/assets/resume/Jason_Steer_Resumé.pdf",
+    file: "public/assets/resume/Jason_Steer_Resumé.pdf",
   }
 
   const ContactData = {
