@@ -58,36 +58,22 @@
   See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
   ## MEDIA
-  #### Screenshot of Homepage (Top)
-  ![Homepage Screenshot](./public/images/readMe/homepage1_SS.jpg)
+  #### Screenshot of Homepage
+  ![Homepage Screenshot](.public/assets/images/Readme-img/portfolio-homeScreen.jpg)
 
-  #### Screenshot of Homepage (Bottom)
-  ![Homepage bottom Screenshot](./public/images/readMe/homepage2_SS.jpg)
+  #### Screenshot of Projects Page
+  ![Portfolio Page Screenshot](public/assets/images/Readme-img/portfolio-projects.jpg)
 
-  #### Screenshot of Login Page
-  ![Login Page Screenshot](./public/images/readMe/login_SS.jpg)
-
-  #### Screenshot of Sign-up Page
-  ![Sign-up Page Screenshot](./public/images/readMe/signup_SS.jpg)
-
-  #### Screenshot of Top Rated Movies Page
-  ![Top Rated movies Page Screenshot](./public/images/readMe/top_rated_movies-LoggedIn_SS.jpg)
-
-  #### Screenshot of Movie Reviews Page
-  ![Movie Revies Page Screenshot](./public/images/readMe/movie_review-LoggedIn_SS.jpg)
-
-  #### Screenshot of My Profile Page
-  ![My Profile Page Screenshot](./public/images/readMe/my_profile_reviewed-LoggedIn_SS.jpg)
-  
   ## LICENSE
   Project developed 2022 by Jason Steer,<br />
   This application is licensed under the Apache 2.0 license.
   
   ## Credits
-  - https://blog.kritikapattalam.com/create-a-download-link-in-html
-  - https://emailregex.com/
-  - https://www.youtube.com/watch?v=aor9hlcODUE
-  - https://css.glass/
+  - [Katy DeCorah](https://codepen.io/katydecorah/pen/oNeZMN)
+  - [emailRegex](https://emailregex.com/)
+  - [Eric Murphy | Youtube](https://www.youtube.com/watch?v=aor9hlcODUE)
+  - [Css.Glass](https://css.glass/)
+  - [Exerror](https://exerror.com/how-to-download-file-in-react-js/#:~:text=To%20Download%20File%20in%20React%20js%20In%20React%20Router%20You,Now%2C%20You%20can%20download%20file.)
 
   ## QUESTIONS
   For any questions on this project please contact me via my Github link or email.<br />
