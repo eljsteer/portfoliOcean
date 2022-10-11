@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio.DevJS/static/css/main.f6bdc2f5.css",
-    "main.js": "/Portfolio.DevJS/static/js/main.63166998.js",
-    "static/js/787.7e1305e9.chunk.js": "/Portfolio.DevJS/static/js/787.7e1305e9.chunk.js",
-    "static/media/ivan-bandura-aeuAn9A6rvYTop-unsplash.jpg": "/Portfolio.DevJS/static/media/ivan-bandura-aeuAn9A6rvYTop-unsplash.5304361995c952013d18.jpg",
-    "index.html": "/Portfolio.DevJS/index.html",
-    "main.f6bdc2f5.css.map": "/Portfolio.DevJS/static/css/main.f6bdc2f5.css.map",
-    "main.63166998.js.map": "/Portfolio.DevJS/static/js/main.63166998.js.map",
-    "787.7e1305e9.chunk.js.map": "/Portfolio.DevJS/static/js/787.7e1305e9.chunk.js.map"
+    "main.css": "/portfolio.devjs/static/css/main.f6bdc2f5.css",
+    "main.js": "/portfolio.devjs/static/js/main.b2f51516.js",
+    "static/js/787.7e1305e9.chunk.js": "/portfolio.devjs/static/js/787.7e1305e9.chunk.js",
+    "static/media/ivan-bandura-aeuAn9A6rvYTop-unsplash.jpg": "/portfolio.devjs/static/media/ivan-bandura-aeuAn9A6rvYTop-unsplash.5304361995c952013d18.jpg",
+    "index.html": "/portfolio.devjs/index.html",
+    "main.f6bdc2f5.css.map": "/portfolio.devjs/static/css/main.f6bdc2f5.css.map",
+    "main.b2f51516.js.map": "/portfolio.devjs/static/js/main.b2f51516.js.map",
+    "787.7e1305e9.chunk.js.map": "/portfolio.devjs/static/js/787.7e1305e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f6bdc2f5.css",
-    "static/js/main.63166998.js"
+    "static/js/main.b2f51516.js"
   ]
 }
