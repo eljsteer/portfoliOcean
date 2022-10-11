@@ -19,7 +19,7 @@ function Resume() {
               {SkillsData.map(skills => (
               <div // onMouseEnter={toggleHover} // onMouseLeave={toggleHover}
                   >
-                <img className="resumeIcon" src={process.env.PUBLIC_URL + "/"`${skills.icon}`} alt={skills.name}/>
+                <img className="resumeIcon" src={process.env.PUBLIC_URL + `/${skills.icon}`} alt={skills.name}/>
                 <div id="skillNames" className="hide">{skills.name}</div>
               </div>
                 ))}
