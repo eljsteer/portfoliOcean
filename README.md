@@ -22,7 +22,7 @@
   
   ## Application Deployment Links:
 
-  Deployed Application at: [Portfolio.DevJS](https://eljsteer.github.io/portfolio.devjs)
+  Deployed Application at: [Portfolio.DevJS](https://eljsteer.github.io/portfolio.devjs/)
 
   ## INSTALLATION
   To install the application to view the code:
