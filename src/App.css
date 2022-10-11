@@ -58,14 +58,6 @@
   color: white;
 }
 
-.navbarText a {
-  color: #fff;
-}
-
-.navbarText a:focus {
-  color: #fff;
-}
-
 .navbarText a:hover {
   color:rgb(0, 204, 255);
 }
@@ -76,6 +68,7 @@
 }
 
 .currentPage {
+  text-decoration: none;
   color:rgb(0, 204, 255);
 }
 

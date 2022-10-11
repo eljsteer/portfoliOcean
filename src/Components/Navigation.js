@@ -10,7 +10,7 @@ function Navigation() {
 
     const navbarList = NavList.map(({name, url, mainHeader}, index) => {
     
-      const smallCase = "navLink" + (currentTab === url ? " currentPage" : "");
+      const smallCase = (currentTab === url ? " currentPage" : "navLink");
 
       return (
       <li key={index} className="navbarText">

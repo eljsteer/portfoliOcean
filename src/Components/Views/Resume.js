@@ -26,8 +26,8 @@ function Resume() {
               <div className="resumeDownload">
                 <h3 id="subtitle">Download Resume</h3>
                 <div>
-                  <Link href={resumeFile.file} download>
-                    <button istype="button" className="btn btn-outline-light" id="downloadBttn">Download</button>
+                  <Link to={resumeFile.file} target="_blank" download>
+                    <button istype="button" className="btn btn-outline-light" value="download" id="downloadBttn">Download</button>
                   </Link>
                 </div>
               </div>

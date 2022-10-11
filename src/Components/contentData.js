@@ -129,7 +129,7 @@ const SkillsData = [
 ]
 
   const resumeFile = {
-    file: "../../public/assets/resume/Jason_Steer_Resumé.pdf",
+    file: "/assets/resume/Jason_Steer_Resumé.pdf",
   }
 
   const ContactData = {
