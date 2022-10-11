@@ -10,7 +10,7 @@ function Resume() {
     <div class="d-flex container text-center justify-content-center">
       <div class="d-flex flex-column">
         <div>
-          <h1 className="moreSpace pageHeader">Resume</h1>
+          <h1 className="moreSpace pageHeader">My Proficiencies</h1>
         </div>
         <div className="d-flex flex-row justify-content-center">
           <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-8">
@@ -19,7 +19,7 @@ function Resume() {
               {SkillsData.map(skills => (
               <div // onMouseEnter={toggleHover} // onMouseLeave={toggleHover}
                   >
-                <img className="resumeIcon" src={process.env.PUBLIC_URL + `/${skills.icon}`} alt={skills.name}/>
+                <img className="resumeIcon" src={process.env.PUBLIC_URL + "/" + skills.icon} alt={skills.name}/>
                 <div id="skillNames" className="hide">{skills.name}</div>
               </div>
                 ))}
