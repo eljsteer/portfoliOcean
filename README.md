@@ -59,7 +59,7 @@
 
   ## MEDIA
   #### Screenshot of Homepage
-  ![Homepage Screenshot](.public/assets/images/Readme-img/portfolio-homeScreen.jpg)
+  ![Homepage Screenshot](public/assets/images/Readme-img/portfolio-homeScreen.jpg)
 
   #### Screenshot of Projects Page
   ![Portfolio Page Screenshot](public/assets/images/Readme-img/portfolio-projects.jpg)
