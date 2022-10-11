@@ -1,4 +1,4 @@
-  <h1 align="center">Movie God<h1>
+  <h1 align="center">Portfolio DevJS<h1>
 
   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
@@ -22,7 +22,7 @@
   
   ## Application Deployment Links:
 
-  [Portfolio.DevJS](https://eljsteer.github.io/Portfolio.DevJS/about)
+  Deployed Application at: [Portfolio.DevJS](https://eljsteer.github.io/portfolio.devjs)
 
   ## INSTALLATION
   To install the application to view the code:
@@ -56,16 +56,6 @@
 
   Launches the test runner in the interactive watch mode.\
   See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-  ### `npm run build`
-
-  Builds the app for production to the `build` folder.\
-  It correctly bundles React in production mode and optimizes the build for the best performance.
-
-  The build is minified and the filenames include the hashes.\
-  Your app is ready to be deployed!
-
-  See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
   ## MEDIA
   #### Screenshot of Homepage (Top)
