@@ -36,7 +36,6 @@
   font-size: 36px;
 }
 
-
 #heroimg {
   /* background-image: url(./Assets/images/ivan-bandura-aeuAn9A6rvY-unsplash.jpg); */
   height: 300vh;
@@ -49,7 +48,7 @@
     Navigation CSS
 >>--------->>->>--------->>
 */
-.homeHeader {
+.homeTitle {
   font-size: 2em;
 }
 
@@ -67,9 +66,8 @@
   color: rgb(0, 230, 255);
 }
 
-
-.navbar-nav .nav-link.active {
-  color: rgb(0, 230, 255);
+.nav-item {
+  text-decoration: none;
 }
 
 .navbar-nav {

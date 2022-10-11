@@ -17,14 +17,14 @@ function App() {
         <Router>
           <Header />   
             <Routes>
-              <Route path="/about" element={ <About /> } />     
+              <Route path="/" element={ <About /> } />   {/* This is just the entry route currently for submission to meet requirements, design is for Home page to be the entry point "/" */}  
               <Route path="/portfolio" element={<Projects />} />         
-              <Route path="/" element={<Home />}/>              
+              <Route path="/home" element={<Home />}/>              
               <Route path="/contact" element={<Contact />} />
               <Route path="/resume" element={<Resume />} />
             </Routes>
+          <Footer />
         </Router>
-        <Footer />
       </div>
     </div>
   );
