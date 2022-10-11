@@ -52,22 +52,31 @@
   font-size: 2em;
 }
 
-.navbar-text {
+.navbarText {
   padding: 0px 10px;
   font-size: 20px;
   color: white;
 }
 
-.navbar-text a {
+.navbarText a {
   color: #fff;
 }
 
-.navbar-text a:hover {
-  color: rgb(0, 230, 255);
+.navbarText a:focus {
+  color: #fff;
 }
 
-.nav-item {
+.navbarText a:hover {
+  color:rgb(0, 204, 255);
+}
+
+.navLink {
   text-decoration: none;
+  color: #fff;
+}
+
+.currentPage {
+  color:rgb(0, 204, 255);
 }
 
 .navbar-nav {

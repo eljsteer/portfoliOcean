@@ -1,5 +1,6 @@
 {
   "name": "portfolio.devjs",
+  "homepage": "https://eljsteer.github.io/Portfolio.DevJS/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

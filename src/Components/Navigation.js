@@ -10,10 +10,10 @@ function Navigation() {
 
     const navbarList = NavList.map(({name, url, mainHeader}, index) => {
     
-      const smallCase = "navLink" + currentTab === url ? " currentPage" : "";
+      const smallCase = "navLink" + (currentTab === url ? " currentPage" : "");
 
       return (
-      <li key={index} className="nav-item navbar-text">
+      <li key={index} className="navbarText">
         <Link to={url} className={ mainHeader ? smallCase + " homeTitle" : smallCase } >
           {name}
         </Link>
