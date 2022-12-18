@@ -17,9 +17,9 @@ function App() {
         <Router>
           <Header />   
             <Routes>
-              <Route path="/" element={ <About /> } />   {/* This is just the entry route currently for submission to meet requirements, design is for Home page to be the entry point "/" */}  
+              <Route path="/" element={ < Home/> } /> 
               <Route path="/portfolio" element={<Projects />} />         
-              <Route path="/home" element={<Home />}/>              
+              <Route path="/about" element={<About />}/>              
               <Route path="/contact" element={<Contact />} />
               <Route path="/resume" element={<Resume />} />
             </Routes>
