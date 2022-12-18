@@ -17,11 +17,11 @@ function App() {
         <Router>
           <Header />   
             <Routes>
-              <Route path="/home" element={ < Home/> } /> 
-              <Route path="/portfolio" element={<Projects />} />         
-              <Route path="/about" element={<About />}/>              
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/resume" element={<Resume />} />
+              <Route path="/portfolio.devjs/" element={ < Home/> } /> 
+              <Route path="/portfolio.devjs/portfolio" element={<Projects />} />         
+              <Route path="/portfolio.devjs/about" element={<About />}/>              
+              <Route path="/portfolio.devjs/contact" element={<Contact />} />
+              <Route path="/portfolio.devjs/resume" element={<Resume />} />
             </Routes>
           <Footer />
         </Router>
