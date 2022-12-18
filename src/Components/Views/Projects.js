@@ -16,4 +16,3 @@ function Projects() {
 }
 
 export default Projects;
-// TODO: Add in Projects
