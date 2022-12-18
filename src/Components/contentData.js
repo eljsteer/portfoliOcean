@@ -1,6 +1,6 @@
 const KeyProject = {
     id: 0,
-    name: "", 
+    name: "FireStarter", 
     description: "", 
     technologies: ["Javascript | CSS | HTML "], 
     sourceCode: "", 
@@ -83,11 +83,8 @@ const HomeData = {
 const AboutData = {
     profilephoto: "assets/images/profile/sittingProf-resz1.jpg",
     description: 
-    `I was born and raised in the countryside just outside of Christchurch, NZ.
-    In July 2018 I shifted over to Sydney for warmer weather and greatly improved career opportunities.
-    A career change into Software & Web development is a priority for me at the moment.
-    I am primarily wanting a change from my current role as an Accountant to the world of Tech, 
-    along with oppportunities to level-up my creative problem-solving skills and explore the complexities of blockchain technology.
+    `Hi, I am a full stack Web Developer with a certificate from University of Sydney Coding Bootcamp.
+    I am a "Kiwi", born and raised in the countryside just outside of Christchurch, NZ. I migrated to Sydney for warmer weather and more opportunities.
     My long term dream is to eventually work into a role as a blockchain or DApp developer`,
     role: "Full Stack Web Developer",
   }
