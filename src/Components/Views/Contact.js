@@ -1,13 +1,23 @@
-import React, {useState} from "react";
-import { validateEmail } from "../../Utils/helpers"
-
-
+import React, {useState, useRef} from "react";
+import { validateEmail } from "../../Utils/helpers";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
-
-  // const responsive = {
-  //   className: "col-xxl-4 col-xl-6 col-lg-6 col-md-8"
-  // }
+  const form = useRef();
+  function handleFormSubmit(event) {
+    event.preventDefault();
+    if (!errorMessage) {
+      console.log(formState);
+      emailjs.sendForm('service_iyn7iwb', 'service_iyn7iwb', form.current, 'GumlAi18HzddL4L07')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+    } else if (errorMessage) {
+      console.log(errorMessage);
+    }
+  }
 
   const [formState, setFormState ] = useState({
     name: "",
@@ -50,14 +60,6 @@ function Contact() {
         setFormState({ ...formState, [event.target.name]: event.target.value });
     }
     }
-  
-
-  function handleFormSubmit(event) {
-    event.preventDefault();
-    if (!errorMessage) {
-        console.log(formState);
-    }
-  }
 
   return (
     <div className="container-fluid flex-column d-flex">
@@ -68,7 +70,7 @@ function Contact() {
         {/* <div className="detailsContainer col-md-4">
 
         </div> */}
-        <form id="formContainer" className="form container col-xxl-4 col-xl-6 col-lg-6 col-md-8 needs-validation" novalidate>
+        <form ref={form} id="formContainer" className="form container col-xxl-4 col-xl-6 col-lg-6 col-md-8 needs-validation" novalidate>
           <div className="container d-flex justify-content-center">
             <div className="form-group col-lg-6">
               <label htmlFor="validationDefault01" className="contactLabels form-label">Name:</label>
@@ -88,7 +90,7 @@ function Contact() {
             </div>
           </div>
           <br />
-          <button type="submit" className="btn btn-outline-light col-lg-3 col-md-3 col-sm-2" onSubmit={handleFormSubmit}  id="submitButton">Submit</button>
+          <button type="submit" className="btn btn-outline-light col-lg-3 col-md-3 col-sm-2" onSubmit={handleFormSubmit}  value="Send" id="submitButton">Submit</button>
           {errorMessage && (<p>{errorMessage}</p>)}
         </form>
       </div>
