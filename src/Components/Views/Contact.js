@@ -8,7 +8,7 @@ function Contact() {
     event.preventDefault();
     if (!errorMessage) {
       console.log(formState);
-      emailjs.sendForm('service_iyn7iwb', 'service_iyn7iwb', form.current, 'GumlAi18HzddL4L07')
+      emailjs.sendForm('service_iyn7iwb', 'template_ub5v26a', form.current, 'GumlAi18HzddL4L07')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
