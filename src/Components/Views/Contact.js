@@ -4,6 +4,7 @@ import emailjs from "@emailjs/browser";
 
 function Contact() {
   const form = useRef();
+
   function handleFormSubmit(event) {
     event.preventDefault();
     if (!errorMessage) {
@@ -19,7 +20,7 @@ function Contact() {
     } else if (errorMessage) {
       console.log(errorMessage);
     }
-  }
+  };
 
   function messageSent() {
 
@@ -37,16 +38,15 @@ function Contact() {
 
   function handleFormChange(event) {  
     if (event.target.name === "Email") {
-        const isValid = validateEmail(event.target.value);
-        if (!isValid) {
-            setErrorMessage("A Valid Email is Required");
-            setValState({Email:0, Name: valState.Name, Message: valState.Message})
-          } else {
-            setErrorMessage("");
-            setValState({Email:1, Name: valState.Name, Message: valState.Message})
-
+      const isValid = validateEmail(event.target.value);
+      if (!isValid) {
+          setErrorMessage("A Valid Email is Required");
+          setValState({Email:0, Name: valState.Name, Message: valState.Message})
+        } else {
+          setErrorMessage("");
+          setValState({Email:1, Name: valState.Name, Message: valState.Message})
         }
-    } else if (event.target.name === "Name") {
+      } else if (event.target.name === "Name") {
         if (!event.target.value.length) {
             setErrorMessage(`${event.target.name} is a required field`);
             setValState({Email: valState.Email, [event.target.name]: 0, Message: valState.Message})
@@ -81,7 +81,7 @@ function Contact() {
           <label htmlFor="validationDefaultMessage" className="contactLabels">Message:</label>
           <textarea type="text" className={ valState.Message===2?'form-control': (valState.Message===1?"form-control is-valid":"form-control is-invalid")} id="validationDefaultMessage" name="Message" onBlur={handleFormChange} rows="4" aria-live="assertive" placeholder="Please enter your message " required/>
           <br/>
-          <input type="submit" value="Send" className="btn btn-outline-light col-lg-3 col-md-3 col-sm-2 mb-4" />
+          <input type="submit" value="Send" onSubmit={handleFormSubmit} className="btn btn-outline-light col-lg-3 col-md-3 col-sm-2 mb-4" />
         </form>
         {errorMessage && (<p>{errorMessage}</p>)}
       </div>
