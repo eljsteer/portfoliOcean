@@ -17,7 +17,7 @@ const ProjectData = [
       description: "A Password Generator Application", 
       technologies: ["Javascript | CSS | HTML "], 
       sourceCode: "https://github.com/eljsteer/password-genie", 
-      livePreview: "/password-genie/",
+      livePreview: "password-genie/",
       image: "assets/images/projects/passwordGenie.jpg",
       alt: "Password Generator app"
     }, 
@@ -27,7 +27,7 @@ const ProjectData = [
       description: "A Global Weather Application.", 
       technologies: ["OneApp Weather API | Javascript | CSS | HTML"], 
       sourceCode: "https://github.com/eljsteer/weather-man", 
-      livePreview: "https://eljsteer.github.io/weather-man/",
+      livePreview: "weather-man/",
       image: "assets/images/projects/weatherMan.jpg",
       alt: "Weather app"
     }, 
