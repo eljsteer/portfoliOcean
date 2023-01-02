@@ -17,7 +17,7 @@ const ProjectData = [
       description: "A Password Generator Application", 
       technologies: ["Javascript | CSS | HTML "], 
       sourceCode: "https://github.com/eljsteer/password-genie", 
-      livePreview: "https://eljsteer.github.io/password-genie/",
+      livePreview: "/password-genie/",
       image: "assets/images/projects/passwordGenie.jpg",
       alt: "Password Generator app"
     }, 
