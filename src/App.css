@@ -282,6 +282,8 @@
 #formContainer {
   border: 3px solid #fff;
   border-radius: 25px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 #contactDetails {
@@ -292,7 +294,6 @@
   border:3px solid #fff;
   margin: 20px 0px ;
 }
-
 
 /* 
 >>--------->>->>--------->>
