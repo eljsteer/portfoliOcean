@@ -1,6 +1,6 @@
 export const NavList = [
   {
-    name: "ABOUT ME",
+    name: "ABOUT",
     url: "/about",
     mainHeader: null
   }, {
