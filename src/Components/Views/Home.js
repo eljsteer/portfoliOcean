@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 
 function Home() {
     return (
-      <div className="centerMe">
+      <div>
+        <h1 className="moreSpace pageHeader">Welcome to my Portfolio</h1>
         <div id="keyProjectContainer" className="projectsContainer d-flex flex-row justify-content-center">
           <div id="keyProjectBox" key={KeyProject.name}>
             <img id="keyProjectImg" src={process.env.PUBLIC_URL + "/" + KeyProject.image} alt={KeyProject.alt}/>
