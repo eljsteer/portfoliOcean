@@ -15,7 +15,7 @@ const ProjectData = [
       description: "A Password Generator Application", 
       technologies: ["Javascript | CSS | HTML "], 
       sourceCode: "https://github.com/eljsteer/password-genie", 
-      livePreview: "password-genie/",
+      livePreview: "https://eljsteer.github.io/password-genie/",
       image: "assets/images/projects/passwordGenie.jpg",
       alt: "Password Generator app"
   }, 
@@ -25,7 +25,7 @@ const ProjectData = [
       description: "A Global Weather Application.", 
       technologies: ["OneApp Weather API | Javascript | CSS | HTML"], 
       sourceCode: "https://github.com/eljsteer/weather-man", 
-      livePreview: "weather-man/",
+      livePreview: "https://eljsteer.github.io/weather-man/",
       image: "assets/images/projects/weatherMan.jpg",
       alt: "Weather app"
   }, 
@@ -70,13 +70,6 @@ const ProjectData = [
       alt: "Social media Software backend routes"
     }
 ]
-
-// const HomeData = {
-//     animation: "assets/techWave.gif",
-//     header: "Jason Steer",
-//     theAllure: 
-//     `Avid Web Developer, Lover of Mother Earth, with a curious and analytical mind`,
-//   }
 
 const AboutData = {
     profilephoto: "assets/images/profile/sittingProf-resz1.jpg",
