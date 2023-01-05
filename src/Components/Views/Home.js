@@ -1,12 +1,38 @@
 import React from 'react';
-import { HomeData } from '../contentData';
+import { KeyProject } from '../contentData';
+import { Link } from "react-router-dom";
 
 function Home() {
     return (
-    <div>
-        <h3 className="moreSpace pageHeader">Welcome to my Portfolio!</h3>
-        <img id="homeImg" src={process.env.PUBLIC_URL +"/" + HomeData.animation} alt=""/>
-    </div>
+      <div className="centerMe">
+        <div id="keyProjectContainer" className="projectsContainer d-flex flex-row justify-content-center">
+          <div id="keyProjectBox" key={KeyProject.name}>
+            <img id="keyProjectImg" src={process.env.PUBLIC_URL + "/" + KeyProject.image} alt={KeyProject.alt}/>
+            <div className="imageOverlay card-img-overlay">
+              <h5 className="card-title">{KeyProject.name}</h5>
+              <p>{KeyProject.description}</p>
+              <p><small>{KeyProject.technologies}</small></p>
+              <div>
+                {KeyProject.livePreview ? 
+                (
+                <div className="d-flex flex-row">
+                  <Link to={KeyProject.livePreview} target="_blank" rel="noopener noreferrer" className="appButtons">
+                    <button type="button" className="btn btn-light">Deploy App</button>
+                  </Link>
+                  <Link to={KeyProject.sourceCode} target="_blank" rel="noopener noreferrer" className="appButtons">
+                    <button type="button" className="btn btn-light">Github Repo</button>
+                  </Link>
+                </div>
+                ) : (
+                <Link to={KeyProject.sourceCode} target="_blank" rel="noopener noreferrer" className="appButtons">
+                  <button type="button" className="btn btn-light">Github Repo</button>
+                </Link>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     );
 }
 

@@ -69,7 +69,6 @@
   This application is licensed under the Apache 2.0 license.
   
   ## Credits
-  - [Katy DeCorah](https://codepen.io/katydecorah/pen/oNeZMN)
   - [emailRegex](https://emailregex.com/)
   - [Eric Murphy | Youtube](https://www.youtube.com/watch?v=aor9hlcODUE)
   - [Css.Glass](https://css.glass/)

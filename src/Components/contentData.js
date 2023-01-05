@@ -1,17 +1,15 @@
 const KeyProject = {
     id: 0,
     name: "FireStarter", 
-    description: "", 
+    description: "Dao inspired Incubator and Developer Program to connect and build the projects of tomorrow", 
     technologies: ["Javascript | CSS | HTML "], 
-    sourceCode: "", 
-    livePreview: "",
-    image: "",
-    alt: ""
-  }
-
-
+    sourceCode: "https://github.com/eljsteer/fireStarter", 
+    livePreview: "https://firestarter.herokuapp.com/",
+    image: "assets/images/projects/fireStarterHomePage.jpg",
+    alt: "Developer Project Incubator Application",
+  } 
 const ProjectData = [  
-    {
+  {
       id: 1,
       name: "Password-Genie", 
       description: "A Password Generator Application", 
@@ -20,8 +18,8 @@ const ProjectData = [
       livePreview: "password-genie/",
       image: "assets/images/projects/passwordGenie.jpg",
       alt: "Password Generator app"
-    }, 
-    {
+  }, 
+  {
       id: 2,
       name: "Weather-man", 
       description: "A Global Weather Application.", 
@@ -30,8 +28,8 @@ const ProjectData = [
       livePreview: "weather-man/",
       image: "assets/images/projects/weatherMan.jpg",
       alt: "Weather app"
-    }, 
-    {
+  }, 
+  {
       id: 3,
       name: "Marvel Universe", 
       description: "A Marvel Fan Application to view Images of Marvel Characters", 
@@ -40,8 +38,8 @@ const ProjectData = [
       livePreview: "https://mdkgray.github.io/marvel_universe/",
       image: "assets/images/projects/marvelUniverse.jpg",
       alt: "Marvel universe photo app"
-    }, 
-    {
+  }, 
+  {
       id: 4,
       name: "noteStaker", 
       description: "A note taking application to allow developers to write and save notes in order to keep track of tasks that need to be completed.", 
@@ -50,8 +48,8 @@ const ProjectData = [
       livePreview: "https://radiant-thicket-41331.herokuapp.com/",
       image: "assets/images/projects/noteStaker.jpg",
       alt: "Note taking app"
-    }, 
-    {
+  }, 
+  {
       id: 5,
       name: "Movie God", 
       description: "This Application is your one-stop-shop for all your latest Movie information. Leave Reviews and Ratings on movie greats or new and upcoming movie releases.", 
@@ -73,12 +71,12 @@ const ProjectData = [
     }
 ]
 
-const HomeData = {
-    animation: "assets/techWave.gif",
-    header: "Jason Steer",
-    theAllure: 
-    `Avid Web Developer, Lover of Mother Earth, with a curious and analytical mind`,
-  }
+// const HomeData = {
+//     animation: "assets/techWave.gif",
+//     header: "Jason Steer",
+//     theAllure: 
+//     `Avid Web Developer, Lover of Mother Earth, with a curious and analytical mind`,
+//   }
 
 const AboutData = {
     profilephoto: "assets/images/profile/sittingProf-resz1.jpg",
@@ -136,4 +134,4 @@ const SkillsData = [
     StackOverflow: "https://stackoverflow.com/users/20190347/eljsteer"
   }
 
-export { HomeData, AboutData, ProjectData, SkillsData, resumeFile, ContactData, KeyProject };
+export { KeyProject, AboutData, ProjectData, SkillsData, resumeFile, ContactData };
