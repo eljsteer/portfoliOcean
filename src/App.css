@@ -133,6 +133,7 @@
 
 #aboutMeDescr {
   line-height: 2;
+  font-size: 1.25em;
 }
 
 /* 
@@ -142,12 +143,15 @@
 */
 .projectImg {
   height: 100%;
+  display: block;
+  position: relative;
   object-fit: cover;
   border-radius: 5px;
 }
 
 .projectBox {
-  border: 2px solid rgba(0, 229, 255, 0.3);
+  border: none;
+  background: rgba(0, 0, 0, 0.85);
 }
 
 .projectsContainer {
