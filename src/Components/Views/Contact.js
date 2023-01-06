@@ -68,7 +68,7 @@ function Contact() {
   }
 
   return (
-    <div className="container-fluid flex-column d-flex">
+    <div id="contactWrapper" className="container-fluid flex-column d-flex">
       <div>
         <h2 className="moreSpace pageHeader">Contact Me</h2>
       </div>

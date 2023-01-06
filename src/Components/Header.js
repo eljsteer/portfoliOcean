@@ -1,7 +1,6 @@
 import React from "react";
 import Navigation from "./Navigation";
 
-
 function Header() {
   return (
     <nav className="navbar navbar-expand-lg" id="navHeader">
@@ -18,4 +17,4 @@ function Header() {
 
 }
 
-export default Header;
+export default Header ;

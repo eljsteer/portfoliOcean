@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
+import SideBar from "./Components/sidebarContact";
 import Home from "./Components/Views/Home";
 import About from "./Components/Views/About";
 import Projects from "./Components/Views/Projects";
@@ -13,10 +14,11 @@ import herobkgroundImage from "./Assets/backgroundImage/ivan-bandura-aeuAn9A6rvY
 
 function App() {
   return (
-    <div className="appWrapper d-flex flex-column"> 
+    <div className="appWrapper"> 
       <div id="heroimg" style={{ backgroundImage: `url(${herobkgroundImage})`}} alt="background">
         <Router>
           <Header /> 
+          <SideBar /> 
             <Routes>
               <Route path="/portfoliOcean/" element={ < Home/> } /> 
               <Route path="/portfoliOcean/portfolio" element={<Projects />} />         

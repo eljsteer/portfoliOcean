@@ -12,7 +12,7 @@
 }
 
 .appWrapper {
-  text-align: center;
+
 }
 
 .darkModeText {
@@ -118,11 +118,20 @@
   border-radius: 5px;
 }
 
+#HomeWrapper {
+  text-align: center;
+}
+
 /* 
 >>--------->>->>--------->>
     About Me CSS
 >>--------->>->>--------->>
 */
+
+
+#aboutWrapper {
+  text-align: center;
+}
 
 #aboutPhoto {
   border-radius: 100%;
@@ -251,6 +260,10 @@
 >>--------->>->>--------->>
 */
 
+#contactWrapper {
+  text-align: center;
+}
+
 .detailsContainer {
   border: #fff solid 2px;
 }
@@ -285,19 +298,22 @@
 #sideBar {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+
 }
 
 li {
   list-style: none;
 }
 
-
 /* 
 >>--------->>->>--------->>
     FOOTER  CSS 
 >>--------->>->>--------->>
 */
+
+#footerWrapper {
+  text-align: center;
+}
 
 #wLove {
   white-space: pre;

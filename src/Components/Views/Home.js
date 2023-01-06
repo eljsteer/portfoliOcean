@@ -4,7 +4,7 @@ import { KeyProject } from '../contentData';
 
 function Home() {
     return (
-      <div>
+      <div id="HomeWrapper">
         <h1 className="moreSpace pageHeader">Welcome to my Portfolio</h1>
         <div id="keyProjectContainer" className="projectsContainer d-flex flex-row justify-content-center">
           <div id="keyProjectBox" key={KeyProject.name}>

@@ -3,7 +3,7 @@ import { AboutData } from '../contentData';
 
 function About({about}) {
     return (
-    <div className="container-fluid flex-column d-flex">
+    <div id="aboutWrapper" className="container-fluid flex-column d-flex">
       <div className="aboutPhoto">
         <img src={process.env.PUBLIC_URL + "/" + AboutData.profilephoto } id="aboutPhoto" alt="devJS"></img>
       </div>
