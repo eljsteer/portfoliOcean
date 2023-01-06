@@ -10,12 +10,13 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import herobkgroundImage from "./Assets/backgroundImage/ivan-bandura-aeuAn9A6rvYTop-unsplash.jpg"
 
+
 function App() {
   return (
-    <div className="App d-flex flex-column"> 
+    <div className="appWrapper d-flex flex-column"> 
       <div id="heroimg" style={{ backgroundImage: `url(${herobkgroundImage})`}} alt="background">
         <Router>
-          <Header />   
+          <Header /> 
             <Routes>
               <Route path="/portfoliOcean/" element={ < Home/> } /> 
               <Route path="/portfoliOcean/portfolio" element={<Projects />} />         

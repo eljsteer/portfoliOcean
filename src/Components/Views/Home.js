@@ -18,15 +18,15 @@ function Home() {
                 (
                 <div className="d-flex flex-row">
                   <a href={KeyProject.livePreview} target="_blank" rel="noopener noreferrer" className="appButtons">
-                    <button type="button" className="btn btn-light">Deploy App</button>
+                    <button type="button" className="btn btn-light projectBttn">Deploy App</button>
                   </a>
                   <a href={KeyProject.sourceCode} target="_blank" rel="noopener noreferrer" className="appButtons">
-                    <button type="button" className="btn btn-light">Github Repo</button>
+                    <button type="button" className="btn btn-light projectBttn">Github Repo</button>
                   </a>
                 </div>
                 ) : (
                 <a href={KeyProject.sourceCode} target="_blank" rel="noopener noreferrer" className="appButtons">
-                  <button type="button" className="btn btn-light">Github Repo</button>
+                  <button type="button" className="btn btn-light projectBttn">Github Repo</button>
                 </a>
                 )}
               </div>
