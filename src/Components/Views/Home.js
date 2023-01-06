@@ -1,6 +1,6 @@
 import React from 'react';
 import { KeyProject } from '../contentData';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function Home() {
     return (
@@ -17,17 +17,17 @@ function Home() {
                 {KeyProject.livePreview ? 
                 (
                 <div className="d-flex flex-row">
-                  <Link to={KeyProject.livePreview} target="_blank" rel="noopener noreferrer" className="appButtons">
+                  <a href={KeyProject.livePreview} target="_blank" rel="noopener noreferrer" className="appButtons">
                     <button type="button" className="btn btn-light">Deploy App</button>
-                  </Link>
-                  <Link to={KeyProject.sourceCode} target="_blank" rel="noopener noreferrer" className="appButtons">
+                  </a>
+                  <a href={KeyProject.sourceCode} target="_blank" rel="noopener noreferrer" className="appButtons">
                     <button type="button" className="btn btn-light">Github Repo</button>
-                  </Link>
+                  </a>
                 </div>
                 ) : (
-                <Link to={KeyProject.sourceCode} target="_blank" rel="noopener noreferrer" className="appButtons">
+                <a href={KeyProject.sourceCode} target="_blank" rel="noopener noreferrer" className="appButtons">
                   <button type="button" className="btn btn-light">Github Repo</button>
-                </Link>
+                </a>
                 )}
               </div>
             </div>
