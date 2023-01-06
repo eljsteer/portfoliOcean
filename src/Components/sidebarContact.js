@@ -13,17 +13,17 @@ function sideBar() {
     <ul>
       <li>
         <Link to={ContactData.Github} target="_blank" rel="noopener noreferrer" className="contactIcons m-3">
-          <FaGithub id="githubIcon" size="3.5rem" />
+          <FaGithub id="githubIcon" size="2.5rem" />
         </Link>
       </li>
       <li>
         <Link to={ContactData.LinkedIn} target="_blank" rel="noopener noreferrer" className="contactIcons m-3">
-          <FaLinkedin id="linkedinIcon"size="3.5rem"/>
+          <FaLinkedin id="linkedinIcon"size="2.5rem"/>
         </Link>
       </li>
       <li>
         <Link to={ContactData.StackOverflow} target="_blank" rel="noopener noreferrer" className="contactIcons m-3">
-          <FaStackOverflow id="stackOverflowIcon" size="3.5rem"/>
+          <FaStackOverflow id="stackOverflowIcon" size="2.5rem"/>
         </Link>
       </li>
     </ul>
