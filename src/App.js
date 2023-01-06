@@ -17,11 +17,11 @@ function App() {
         <Router>
           <Header />   
             <Routes>
-              <Route path="/" element={ < Home/> } /> 
-              <Route path="/portfolio" element={<Projects />} />         
-              <Route path="/about" element={<About />}/>              
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/resume" element={<Resume />} />
+              <Route path="/portfoliOcean/" element={ < Home/> } /> 
+              <Route path="/portfoliOcean/portfolio" element={<Projects />} />         
+              <Route path="/portfoliOcean/about" element={<About />}/>              
+              <Route path="/portfoliOcean/contact" element={<Contact />} />
+              <Route path="/portfoliOcean/resume" element={<Resume />} />
             </Routes>
           <Footer />
         </Router>

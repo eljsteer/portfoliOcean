@@ -1,23 +1,23 @@
 export const NavList = [
   {
     name: "ABOUT",
-    url: "/about",
+    url: "/portfoliOcean/about",
     mainHeader: null
   }, {
     name: "PORTFOLIO",
-    url: "/portfolio",
+    url: "/portfoliOcean/portfolio",
     mainHeader: null
   }, {
     name: "JASON STEER",
-    url: "/",
+    url: "/portfoliOcean/",
     mainHeader:"true"
   }, {
     name: "RESUME",
-    url: "/resume",
+    url: "/portfoliOcean/resume",
     mainHeader: null
   }, {
     name: "CONTACT",
-    url: "/contact",
+    url: "/portfoliOcean/contact",
     mainHeader: null
   }
 ]
