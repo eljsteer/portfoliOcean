@@ -297,11 +297,23 @@
 #sideBar {
   display: flex;
   flex-direction: column;
-
+  width: fit-content;
+  position: fixed;
+  top: 50%;
+  right: 0%;
+  margin-right: 20px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  transform: translateX(0%);
 }
 
 li {
   list-style: none;
+}
+
+.contactIcons {
+  margin-bottom: 10px;
 }
 
 /* 
@@ -312,6 +324,13 @@ li {
 
 #footerWrapper {
   text-align: center;
+}
+
+#contactBarList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
 }
 
 #wLove {
@@ -328,12 +347,6 @@ li {
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -347,13 +360,4 @@ li {
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

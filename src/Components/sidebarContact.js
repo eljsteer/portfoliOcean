@@ -3,28 +3,26 @@ import { ContactData } from "../Components/contentData";
 import { FaGithub } from "react-icons/fa"
 import { FaLinkedin } from "react-icons/fa"
 import { FaStackOverflow } from "react-icons/fa"
-import { Link } from "react-router-dom";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+// import { Link } from "react-router-dom";
 
 function sideBar() {
   return (
   <aside id="sideBar">
     <ul>
       <li>
-        <Link to={ContactData.Github} target="_blank" rel="noopener noreferrer" className="contactIcons m-3">
-          <FaGithub id="githubIcon" size="2.5rem" />
-        </Link>
+        <a href={ContactData.Github} target="_blank" rel="noopener noreferrer">
+          <FaGithub id="githubIcon" className="contactIcons" size="2.5rem" />
+        </a>
       </li>
       <li>
-        <Link to={ContactData.LinkedIn} target="_blank" rel="noopener noreferrer" className="contactIcons m-3">
-          <FaLinkedin id="linkedinIcon"size="2.5rem"/>
-        </Link>
+        <a href={ContactData.LinkedIn} target="_blank" rel="noopener noreferrer">
+          <FaLinkedin id="linkedinIcon" className="contactIcons" size="2.5rem"/>
+        </a>
       </li>
       <li>
-        <Link to={ContactData.StackOverflow} target="_blank" rel="noopener noreferrer" className="contactIcons m-3">
-          <FaStackOverflow id="stackOverflowIcon" size="2.5rem"/>
-        </Link>
+        <a href={ContactData.StackOverflow} target="_blank" rel="noopener noreferrer">
+          <FaStackOverflow id="stackOverflowIcon" className="contactIcons" size="2.5rem"/>
+        </a>
       </li>
     </ul>
   </aside>

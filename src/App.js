@@ -1,4 +1,5 @@
 import React from "react";
+import MediaQuery from "react-responsive";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import SideBar from "./Components/sidebarContact";
@@ -9,8 +10,8 @@ import Resume from "./Components/Views/Resume";
 import Contact from "./Components/Views/Contact";
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import herobkgroundImage from "./Assets/backgroundImage/ivan-bandura-aeuAn9A6rvYTop-unsplash.jpg"
 
+import herobkgroundImage from "./Assets/backgroundImage/ivan-bandura-aeuAn9A6rvYTop-unsplash.jpg";
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
       <div id="heroimg" style={{ backgroundImage: `url(${herobkgroundImage})`}} alt="background">
         <Router>
           <Header /> 
-          <SideBar /> 
+          <MediaQuery minWidth={1024}>
+            <SideBar /> 
+          </MediaQuery>
             <Routes>
               <Route path="/portfoliOcean/" element={ < Home/> } /> 
               <Route path="/portfoliOcean/portfolio" element={<Projects />} />         
