@@ -199,7 +199,7 @@
 .projectBttn:hover {
   transition: 0.3s;
   border: none;
-  background-color:rgb(0, 204, 255);
+  background-color:var(--ThemeColor);
 }
 /* 
 >>--------->>->>--------->>
@@ -312,8 +312,14 @@ li {
   list-style: none;
 }
 
-.contactIcons {
-  margin-bottom: 10px;
+.contactIconBox {
+  padding: 8px;
+  margin: 10px;
+  border-radius: 50%;
+  background-color:var(--ThemeColor);
+}
+.contactIconBox:hover {
+  background-color: #000000;
 }
 
 /* 
@@ -330,11 +336,22 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.footerIconBox {
+  padding: 6px;
+  margin: 5px;
+  border-radius: 50%;
+  background-color:var(--ThemeColor);
 }
 
 #wLove {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   white-space: pre;
+  flex-wrap: wrap;
 }
 
 /* 

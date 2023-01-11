@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { SkillsData, resumeFile } from '../contentData';
+import { SkillsData, ResumeFile } from '../contentData';
 
 function Resume() {
   // const [hovered, setHovered] = useState(false);
@@ -26,7 +26,7 @@ function Resume() {
               <div className="resumeDownload">
                 <h3 id="subtitle">Download Resume</h3>
                 <div>
-                  <Link to={resumeFile.file} target="_blank" download>
+                  <Link to={ResumeFile.file} target="_blank" download>
                     <button type="button" className="btn btn-outline-light" value="download" id="downloadBttn">Download</button>
                   </Link>
                 </div>

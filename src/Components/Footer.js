@@ -1,36 +1,52 @@
 import React from "react";
 import MediaQuery from "react-responsive";
-import { ContactData } from "../Components/contentData";
-import { FaGithub } from "react-icons/fa"
-import { FaLinkedin } from "react-icons/fa"
-import { FaStackOverflow } from "react-icons/fa"
-// import { Link } from "react-router-dom";
+import { ContactData, ResumeFile } from "../Components/contentData";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+// import { FaStackOverflow } from "react-icons/fa"
+import { HiOutlineMail } from "react-icons/hi";
+import { HiOutlineMailOpen } from "react-icons/hi";
+import { BsFileEarmarkCode } from "react-icons/bs";
+import { TbPhone, TbPhoneCall } from "react-icons/tb"
+import { Link } from "react-router-dom";
+
+// const [isActive, setIsActive] = useState(false);
 
 function Footer() {
   return (
   <div id="footerWrapper"  className="moreSpace">
-    <MediaQuery maxWidth={1024}>
+    <MediaQuery maxWidth={1023}>
       <div id="contactBar">
         <ul id="contactBarList">
-          <li>
-            <a href={ContactData.Github} target="_blank" rel="noopener noreferrer">
-              <FaGithub id="githubIcon" className="contactIcons" size="2.5rem" />
-            </a>
-          </li>
-          <li>
+          <li className="footerIconBox">
             <a href={ContactData.LinkedIn} target="_blank" rel="noopener noreferrer">
               <FaLinkedin id="linkedinIcon" className="contactIcons" size="2.5rem"/>
             </a>
           </li>
-          <li>
-            <a href={ContactData.StackOverflow} target="_blank" rel="noopener noreferrer">
-              <FaStackOverflow id="stackOverflowIcon" className="contactIcons" size="2.5rem"/>
+          <li className="footerIconBox">
+            <a href={ContactData.Github} target="_blank" rel="noopener noreferrer">
+              <FaGithub id="githubIcon" className="contactIcons" size="2.5rem" />
             </a>
+          </li>
+          <li className="footerIconBox">
+            <a href={ContactData.Email} target="_blank" rel="noopener noreferrer">
+              <HiOutlineMail id="emailIcon" className="contactIcons" size="2.5rem"/>
+            </a>
+          </li>
+          <li className="footerIconBox">
+            <a href={ContactData.Phone} target="_blank" rel="noopener noreferrer">
+              <TbPhone id="phoneIcon" className="contactIcons" size="2.5rem"/>
+            </a>
+          </li>
+          <li className="footerIconBox">
+            <Link to={ResumeFile.file} target="_blank" download>
+            <BsFileEarmarkCode id="resumeIcon" type="button" value="download" className="contactIcons" size="2.5rem"/>
+            </Link>
           </li>
         </ul>
       </div>
     </MediaQuery>
-    <h3 id="wLove">Created with <span>    ❤    </span> by eljsteer</h3>
+    <h3 id="wLove">Created with <span>    ❤    </span> by Jason Steer, 2022</h3>
   </div>
   )
 }
