@@ -1,4 +1,4 @@
-import React from "react";
+import {React, useState} from "react";
 import MediaQuery from "react-responsive";
 import { ContactData, ResumeFile } from "../Components/contentData";
 import { FaGithub } from "react-icons/fa";
@@ -10,9 +10,14 @@ import { BsFileEarmarkCode } from "react-icons/bs";
 import { TbPhone, TbPhoneCall } from "react-icons/tb"
 import { Link } from "react-router-dom";
 
-// const [isActive, setIsActive] = useState(false);
+
+
+
 
 function Footer() {
+
+  const [isHover, setIsHover] = useState(false);
+
   return (
   <div id="footerWrapper"  className="moreSpace">
     <MediaQuery maxWidth={1023}>

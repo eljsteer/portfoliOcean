@@ -70,6 +70,7 @@
   
   ## Credits
   - [emailRegex](https://emailregex.com/)
+  - [stackOverflow](https://stackoverflow.com/questions/67368468/on-click-of-a-button-how-can-i-re-direct-to-the-outlook-mail-with-automatic-body)
   - [Eric Murphy | Youtube](https://www.youtube.com/watch?v=aor9hlcODUE)
   - [Css.Glass](https://css.glass/)
   - [Exerror](https://exerror.com/how-to-download-file-in-react-js/#:~:text=To%20Download%20File%20in%20React%20js%20In%20React%20Router%20You,Now%2C%20You%20can%20download%20file.)
