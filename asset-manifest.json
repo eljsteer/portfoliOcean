@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfoliOcean/static/css/main.d80be8fa.css",
+    "main.css": "/portfoliOcean/static/css/main.cdba5ab6.css",
     "main.js": "/portfoliOcean/static/js/main.680c45eb.js",
     "static/js/787.60979797.chunk.js": "/portfoliOcean/static/js/787.60979797.chunk.js",
     "static/media/ivan-bandura-aeuAn9A6rvYTop-unsplash.jpg": "/portfoliOcean/static/media/ivan-bandura-aeuAn9A6rvYTop-unsplash.5304361995c952013d18.jpg",
     "index.html": "/portfoliOcean/index.html",
-    "main.d80be8fa.css.map": "/portfoliOcean/static/css/main.d80be8fa.css.map",
+    "main.cdba5ab6.css.map": "/portfoliOcean/static/css/main.cdba5ab6.css.map",
     "main.680c45eb.js.map": "/portfoliOcean/static/js/main.680c45eb.js.map",
     "787.60979797.chunk.js.map": "/portfoliOcean/static/js/787.60979797.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d80be8fa.css",
+    "static/css/main.cdba5ab6.css",
     "static/js/main.680c45eb.js"
   ]
 }
