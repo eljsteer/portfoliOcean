@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 import { SkillsData, ResumeFile } from '../contentData';
 
 function Resume() {
-  // const [hovered, setHovered] = useState(false);
-  // const toggleHover = () => setHovered(!hovered);
-  // const classChange = hovered ? "hide": "show" ;
+
   return (
     <div class="d-flex container text-center justify-content-center">
       <div class="d-flex flex-column">
