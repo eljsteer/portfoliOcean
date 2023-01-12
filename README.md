@@ -1,4 +1,4 @@
-  <h1 align="center">Portfolio Cover Ocean<h1>
+  <h1 align="center">Portfolio Ocean<h1>
 
   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
