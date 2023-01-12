@@ -125,7 +125,7 @@ const SkillsData = [
     Github: "https://github.com/eljsteer",
     LinkedIn: "https://www.linkedin.com/in/devjs-jason-steer/",
     StackOverflow: "https://stackoverflow.com/users/20190347/eljsteer",
-    Phone: "+61405884740"
+    Phone: "tel:+61405884740"
   }
 
 export { KeyProject, AboutData, ProjectData, SkillsData, ResumeFile, ContactData };

@@ -36,8 +36,8 @@ function SideBar() {
               onMouseLeave={toggleHoverEmail}
               target="_blank" 
               rel="noopener noreferrer">
-              { !hoveredEmail ? <HiOutlineMail id="emailIcon" className="contactIcons" size="2.5rem"/>
-              : <HiOutlineMailOpen id="emailIcon" className="contactIcons" size="2.5rem"/>
+              { !hoveredEmail ? <HiOutlineMail id="emailIcon" className="contactIcons" size="2.5rem" alt="Email el.jsteer@gmail.com"/>
+              : <HiOutlineMailOpen id="emailIcon" className="contactIcons" size="2.5rem" alt="Email el.jsteer@gmail.com"/>
               }
         </a>
       </li>
@@ -47,8 +47,8 @@ function SideBar() {
               onMouseLeave={toggleHoverPhone}
               target="_blank" 
               rel="noopener noreferrer">
-              { !hoveredPhone ? <TbPhone id="phoneIcon" className="contactIcons" size="2.5rem"/>
-              : <TbPhoneCall id="phoneIcon" className="contactIcons" size="2.5rem"/>
+              { !hoveredPhone ? <TbPhone id="phoneIcon" className="contactIcons" size="2.5rem" alt="Call +61 040588 4740"/>
+              : <TbPhoneCall id="phoneIcon" className="contactIcons" size="2.5rem" alt="Call +61 040588 4740"/>
               }
         </a>
       </li>
@@ -57,8 +57,8 @@ function SideBar() {
               onMouseEnter={toggleHoverResume}
               onMouseLeave={toggleHoverResume} 
               target="_blank" download>
-              { !hoveredResume ? <BsFileEarmarkCode id="resumeIcon" className="contactIcons" size="2.5rem"/>
-              : <BsFileEarmarkArrowDown id="resumeIcon" className="contactIcons" size="2.5rem"/>
+              { !hoveredResume ? <BsFileEarmarkCode id="resumeIcon" className="contactIcons" size="2.5rem" alt="Download Resume"/>
+              : <BsFileEarmarkArrowDown id="resumeIcon" className="contactIcons" size="2.5rem" alt="Download Resume"/>
               }
         </Link>
       </li>
