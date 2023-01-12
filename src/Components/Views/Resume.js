@@ -14,11 +14,9 @@ function Resume() {
         </div>
         <div className="d-flex flex-row justify-content-center">
           <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-8">
-            {/* <h3 className="pageHeader">Web Development Proficiencies</h3> */}
             <div id="skillsContainer" className="d-flex flex-row wrapper justify-content-center" >
               {SkillsData.map(skills => (
-              <div // onMouseEnter={toggleHover} // onMouseLeave={toggleHover}
-                  >
+              <div>
                 <img className="resumeIcon" src={process.env.PUBLIC_URL + "/" + skills.icon} alt={skills.name}/>
                 <div id="skillNames" className="hide">{skills.name}</div>
               </div>

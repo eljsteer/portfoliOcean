@@ -4,19 +4,18 @@ import { ContactData, ResumeFile } from "../Components/contentData";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 // import { FaStackOverflow } from "react-icons/fa"
-import { HiOutlineMail } from "react-icons/hi";
-import { HiOutlineMailOpen } from "react-icons/hi";
-import { BsFileEarmarkCode } from "react-icons/bs";
+import { HiOutlineMail, HiOutlineMailOpen } from "react-icons/hi";
+import { BsFileEarmarkCode, BsFileEarmarkArrowDown } from "react-icons/bs";
 import { TbPhone, TbPhoneCall } from "react-icons/tb"
 import { Link } from "react-router-dom";
 
 
 
-
-
 function Footer() {
 
-  const [isHover, setIsHover] = useState(false);
+ // const [hovered, setHovered] = useState(false);
+  // const toggleHover = () => setHovered(!hovered);
+  // const classChange = hovered ? "hide": "show" ;
 
   return (
   <div id="footerWrapper"  className="moreSpace">
@@ -35,6 +34,8 @@ function Footer() {
           </li>
           <li className="footerIconBox">
             <a href={ContactData.Email} target="_blank" rel="noopener noreferrer">
+              {/* onMouseEnter={toggleHover}  */}
+              {/* onMouseLeave={toggleHover} */}
               <HiOutlineMail id="emailIcon" className="contactIcons" size="2.5rem"/>
             </a>
           </li>
