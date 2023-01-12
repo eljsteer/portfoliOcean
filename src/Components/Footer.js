@@ -11,8 +11,12 @@ import { Link } from "react-router-dom";
 
 function Footer() {
 
-  const [hovered, setHovered] = useState(false);
-  const toggleHover = () => setHovered(!hovered);
+  const [hoveredEmail, setHoveredEmail] = useState(false);
+  const [hoveredPhone, setHoveredPhone] = useState(false);
+  const [hoveredResume, setHoveredResume] = useState(false);
+  const toggleHoverEmail = () => setHoveredEmail(!hoveredEmail);
+  const toggleHoverPhone = () => setHoveredPhone(!hoveredPhone);
+  const toggleHoverResume = () => setHoveredResume(!hoveredResume);
 
   return (
   <div id="footerWrapper"  className="moreSpace">
@@ -31,23 +35,34 @@ function Footer() {
           </li>
           <li className="footerIconBox">
             <a  href={ContactData.Email} 
-                onMouseEnter={toggleHover}
-                onMouseLeave={toggleHover}
-                target="_blank" 
-                rel="noopener noreferrer">
-              { !hovered ? <HiOutlineMail id="emailIcon" className="contactIcons" size="2.5rem"/>
-              : <HiOutlineMailOpen id="emailIcon" className="contactIcons" size="2.5rem"/>
-              }
+                  onMouseEnter={toggleHoverEmail}
+                  onMouseLeave={toggleHoverEmail}
+                  target="_blank" 
+                  rel="noopener noreferrer">
+                  { !hoveredEmail ? <HiOutlineMail id="emailIcon" className="contactIcons" size="2.5rem"/>
+                  : <HiOutlineMailOpen id="emailIcon" className="contactIcons" size="2.5rem"/>
+                  }
             </a>
           </li>
           <li className="footerIconBox">
-            <a href={ContactData.Phone} target="_blank" rel="noopener noreferrer">
-              <TbPhone id="phoneIcon" className="contactIcons" size="2.5rem"/>
+            <a href={ContactData.Phone} 
+                  onMouseEnter={toggleHoverPhone}
+                  onMouseLeave={toggleHoverPhone}
+                  target="_blank" 
+                  rel="noopener noreferrer">
+                  { !hoveredPhone ? <TbPhone id="phoneIcon" className="contactIcons" size="2.5rem"/>
+                  : <TbPhoneCall id="phoneIcon" className="contactIcons" size="2.5rem"/>
+                  }
             </a>
           </li>
           <li className="footerIconBox">
-            <Link to={ResumeFile.file} target="_blank" download>
-            <BsFileEarmarkCode id="resumeIcon" type="button" value="download" className="contactIcons" size="2.5rem"/>
+            <Link to={ResumeFile.file}
+                  onMouseEnter={toggleHoverResume}
+                  onMouseLeave={toggleHoverResume} 
+                  target="_blank" download>
+                  { !hoveredResume ? <BsFileEarmarkCode id="resumeIcon" className="contactIcons" size="2.5rem"/>
+                  : <BsFileEarmarkArrowDown id="resumeIcon" className="contactIcons" size="2.5rem"/>
+                  }
             </Link>
           </li>
         </ul>
