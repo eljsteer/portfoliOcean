@@ -74,9 +74,15 @@ const ProjectData = [
 const AboutData = {
     profilephoto: "assets/images/profile/sittingProf-resz1.jpg",
     description: 
-    `Hi, I am a full stack Web Developer with a certificate from University of Sydney Coding Bootcamp.
-    I am a "Kiwi", born and raised in the countryside just outside of Christchurch, NZ. I migrated to Sydney for warmer weather and more opportunities.
-    My long term dream is to eventually work into a role as a blockchain or DApp developer`,
+    `Hi, I am a full stack Web Developer, with a background in finance and accounting.  
+    
+    I recently completed a certificate in Full Stack Web Development Bootcamp from the University of Sydney.
+    The bootcamp gave me a solid proficiency with skills centred around the MERN stack. 
+    Completing the bootcamp was also the first step taken towards my long term aspirations to eventually work in Web3 as a blockchain or DApp developer.
+    In my lifelong learning journey, I am always looking for new opportunities to learn, challenge myself and collobrate on projects, so please don't hesitate to get in touch about anything.
+
+    Enjoy browsing my Portfolio.
+    `,
     role: "Full Stack Web Developer",
   }
 
