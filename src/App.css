@@ -33,10 +33,14 @@
 }
 
 #heroimg {
-  /* background-image: url(./Assets/images/ivan-bandura-aeuAn9A6rvY-unsplash.jpg); */
+  background-image: url('../public/assets/images/backgroundImage/ivan-bandura-aeuAn9A6rvYTop-unsplash.jpg');
   height: 300vh;
+  width: 100vw;
+  position: sticky;
   background-repeat: no-repeat;
-  object-fit: fill;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover
 }
 
 /* 

@@ -11,12 +11,12 @@ import Contact from "./Components/Views/Contact";
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import herobkgroundImage from "./Assets/backgroundImage/ivan-bandura-aeuAn9A6rvYTop-unsplash.jpg";
+// import herobkgroundImage from "./Assets/backgroundImage/ivan-bandura-aeuAn9A6rvYTop-unsplash.jpg";
 
 function App() {
   return (
     <div className="appWrapper"> 
-      <div id="heroimg" style={{ backgroundImage: `url(${herobkgroundImage})`}} alt="background">
+      <div id="heroimg" alt="background">
         <Router>
           <Header /> 
           <MediaQuery minWidth={1024}>
