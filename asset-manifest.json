@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfoliOcean/static/css/main.cdba5ab6.css",
-    "main.js": "/portfoliOcean/static/js/main.e6f2b467.js",
+    "main.css": "/portfoliOcean/static/css/main.e69985bb.css",
+    "main.js": "/portfoliOcean/static/js/main.ce45b393.js",
     "static/js/787.82a0fc6e.chunk.js": "/portfoliOcean/static/js/787.82a0fc6e.chunk.js",
-    "static/media/ivan-bandura-aeuAn9A6rvYTop-unsplash.jpg": "/portfoliOcean/static/media/ivan-bandura-aeuAn9A6rvYTop-unsplash.5304361995c952013d18.jpg",
+    "static/media/ivan-bandura-aeuAn9A6rvYTop-unsplash.jpg": "/portfoliOcean/static/media/ivan-bandura-aeuAn9A6rvYTop-unsplash.a46575d28682491dced4.jpg",
     "index.html": "/portfoliOcean/index.html",
-    "main.cdba5ab6.css.map": "/portfoliOcean/static/css/main.cdba5ab6.css.map",
-    "main.e6f2b467.js.map": "/portfoliOcean/static/js/main.e6f2b467.js.map",
+    "main.e69985bb.css.map": "/portfoliOcean/static/css/main.e69985bb.css.map",
+    "main.ce45b393.js.map": "/portfoliOcean/static/js/main.ce45b393.js.map",
     "787.82a0fc6e.chunk.js.map": "/portfoliOcean/static/js/787.82a0fc6e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdba5ab6.css",
-    "static/js/main.e6f2b467.js"
+    "static/css/main.e69985bb.css",
+    "static/js/main.ce45b393.js"
   ]
 }
