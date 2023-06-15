@@ -68,7 +68,7 @@ function Footer() {
         </ul>
       </div>
     </MediaQuery>
-    <h3 id="wLove">Created with <span>    ❤    </span> by Jason Steer, 2022</h3>
+    <h4 id="wLove">Created with <span>    ❤    </span> by Jason Steer, 2022</h4>
   </div>
   )
 }

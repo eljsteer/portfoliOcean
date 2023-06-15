@@ -16,7 +16,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <div className="appWrapper"> 
-      <div id="heroimg" alt="background">
+      {/* <div id="heroimg" alt="background"> */}
+      <div id="appBackground" alt="background">
         <Router>
           <Header /> 
           <MediaQuery minWidth={1024}>

@@ -29,15 +29,6 @@ function Resume() {
               </div>
             </div>
           </div>
-
-          {/* <div class="col-6">
-            <h3 className="pageHeader">Download Resume</h3>
-            <div>
-              <a href={resumeFile.file} download>
-                <button istype="button" className="btn btn-outline-light" id="downloadBttn">Download</button>
-              </a>
-            </div>
-          </div> */}
         </div>
       </div>
     </div>

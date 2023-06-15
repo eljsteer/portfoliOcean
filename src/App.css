@@ -32,7 +32,7 @@
   font-size: 36px;
 }
 
-#heroimg {
+/* #heroimg {
   background-image: url('../public/assets/images/backgroundImage/ivan-bandura-aeuAn9A6rvYTop-unsplash.jpg');
   height: 300vh;
   width: 100vw;
@@ -41,6 +41,10 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover
+} */
+
+#appBackground {
+  background-color: rgb(0, 7, 31);
 }
 
 /* 
