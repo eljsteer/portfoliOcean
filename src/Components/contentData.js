@@ -127,7 +127,6 @@ const SkillsData = [
   }
 
   const ContactData = {
-    Email: "/contact",
     Github: "https://github.com/eljsteer",
     LinkedIn: "https://www.linkedin.com/in/devjs-jason-steer/",
     StackOverflow: "https://stackoverflow.com/users/20190347/eljsteer",
