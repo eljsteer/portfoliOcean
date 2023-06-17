@@ -3,20 +3,19 @@ import MediaQuery from "react-responsive";
 import { ContactData, ResumeFile } from "../Components/contentData";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-// import { FaStackOverflow } from "react-icons/fa"
-import { HiOutlineMail, HiOutlineMailOpen } from "react-icons/hi";
 import { BsFileEarmarkCode, BsFileEarmarkArrowDown } from "react-icons/bs";
-import { TbPhone, TbPhoneCall } from "react-icons/tb"
 import { Link } from "react-router-dom";
+import { HiOutlineMail, HiOutlineMailOpen } from "react-icons/hi";
+// import { TbPhone, TbPhoneCall } from "react-icons/tb"
+// import { FaStackOverflow } from "react-icons/fa"
 
 function Footer() {
-
   const [hoveredEmail, setHoveredEmail] = useState(false);
-  const [hoveredPhone, setHoveredPhone] = useState(false);
   const [hoveredResume, setHoveredResume] = useState(false);
   const toggleHoverEmail = () => setHoveredEmail(!hoveredEmail);
-  const toggleHoverPhone = () => setHoveredPhone(!hoveredPhone);
   const toggleHoverResume = () => setHoveredResume(!hoveredResume);
+  // const toggleHoverPhone = () => setHoveredPhone(!hoveredPhone);
+  // const [hoveredPhone, setHoveredPhone] = useState(false);
 
   return (
   <div id="footerWrapper"  className="moreSpace">
@@ -34,26 +33,13 @@ function Footer() {
             </a>
           </li>
           <li className="footerIconBox">
-            <a  href={ContactData.Email} 
+            <Link to="portfoliOcean/contact"
                   onMouseEnter={toggleHoverEmail}
-                  onMouseLeave={toggleHoverEmail}
-                  target="_blank" 
-                  rel="noopener noreferrer">
+                  onMouseLeave={toggleHoverEmail}>
                   { !hoveredEmail ? <HiOutlineMail id="emailIcon" className="contactIcons" size="2.5rem"/>
                   : <HiOutlineMailOpen id="emailIcon" className="contactIcons" size="2.5rem"/>
                   }
-            </a>
-          </li>
-          <li className="footerIconBox">
-            <a href={ContactData.Phone} 
-                  onMouseEnter={toggleHoverPhone}
-                  onMouseLeave={toggleHoverPhone}
-                  target="_blank" 
-                  rel="noopener noreferrer">
-                  { !hoveredPhone ? <TbPhone id="phoneIcon" className="contactIcons" size="2.5rem"/>
-                  : <TbPhoneCall id="phoneIcon" className="contactIcons" size="2.5rem"/>
-                  }
-            </a>
+            </Link> 
           </li>
           <li className="footerIconBox">
             <Link to={ResumeFile.file}

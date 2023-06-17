@@ -43,10 +43,6 @@
   background-size: cover
 } */
 
-#appBackground {
-  background-color: rgb(0, 7, 31);
-}
-
 /* 
 >>--------->>->>--------->>
     Navigation CSS
@@ -381,6 +377,7 @@ li {
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 
 .App-link {
   color: #61dafb;

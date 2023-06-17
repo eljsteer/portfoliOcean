@@ -17,7 +17,6 @@ function App() {
   return (
     <div className="appWrapper"> 
       {/* <div id="heroimg" alt="background"> */}
-      <div id="appBackground" alt="background">
         <Router>
           <Header /> 
           <MediaQuery minWidth={1024}>
@@ -32,7 +31,6 @@ function App() {
             </Routes>
           <Footer />
         </Router>
-      </div>
     </div>
   );
 }
