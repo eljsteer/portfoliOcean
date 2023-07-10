@@ -1,6 +1,8 @@
 :root {
   --TextColor:#fff;
   --ThemeColor:rgb(0, 204, 255);
+  --DarkModeText:rgb(255, 255, 255);
+  --DarkModeBackground:rgb(0, 204, 255);
 }
 
 .hide {
@@ -8,8 +10,12 @@
 }
 
 * {
-  color: white;
+  color: rgb(0, 7, 31);
 }
+
+/* * {
+  color: white;
+} */
 
 .darkModeText {
   color: #fff;
@@ -30,6 +36,7 @@
 
 .pageHeader {
   font-size: 36px;
+  color: var(--DarkModeText)
 }
 
 /* #heroimg {
@@ -142,6 +149,7 @@
 #aboutMeDescr {
   line-height: 2;
   font-size: 1.25em;
+  color: var(--DarkModeText);
 }
 
 /* 
@@ -321,8 +329,9 @@ li {
   border-radius: 50%;
   background-color:var(--ThemeColor);
 }
+
 .contactIconBox:hover {
-  background-color: #000000;
+  background-color: white;
 }
 
 /* 
@@ -355,6 +364,11 @@ li {
   justify-content: center;
   white-space: pre;
   flex-wrap: wrap;
+  color: white;
+}
+
+#wLove span {
+  color: rgba(255, 130, 130, 0.979);
 }
 
 /* 
