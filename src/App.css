@@ -9,13 +9,17 @@
   display: none;
 }
 
-* {
-  color: rgb(0, 7, 31);
+.appWrapper {
+  background-color: rgb(0, 7, 31);
 }
 
 /* * {
-  color: white;
+  color: rgb(0, 7, 31);
 } */
+
+* {
+  color: white;
+}
 
 .darkModeText {
   color: #fff;
@@ -331,7 +335,7 @@ li {
 }
 
 .contactIconBox:hover {
-  background-color: white;
+  background-color: rgb(0, 7, 31);
 }
 
 /* 
