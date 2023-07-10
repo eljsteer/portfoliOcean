@@ -1,6 +1,5 @@
 import React from 'react';
 import { AboutData } from '../contentData';
-// import { Link } from "react-router-dom";
 
 function Home() {
     return (
