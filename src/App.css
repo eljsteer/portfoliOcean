@@ -145,7 +145,8 @@
 
 #aboutPhoto {
   border-radius: 100%;
-  margin-top: 15vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
   max-width: 100%;
   height: auto;
 }
