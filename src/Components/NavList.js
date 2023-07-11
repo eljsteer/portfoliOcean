@@ -16,7 +16,7 @@ export const NavList = [
     url: "/portfoliOcean/resume",
     mainHeader: null
   }, {
-    name: "CONTACT",
+    name: "CONTACTT",
     url: "/portfoliOcean/contact",
     mainHeader: null
   }
