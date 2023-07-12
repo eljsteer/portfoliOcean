@@ -1,4 +1,4 @@
-import React from "react";
+import {React, useState} from "react";
 import MediaQuery from "react-responsive";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
@@ -14,11 +14,20 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // import herobkgroundImage from "./Assets/backgroundImage/ivan-bandura-aeuAn9A6rvYTop-unsplash.jpg";
 
 function App() {
+  const [mode,SetMode] = useState("light");
+  const toggleMode = () => {
+    if (mode === "light") {
+      SetMode("dark");
+    } else {
+      SetMode("light");
+    }
+  }
+
   return (
     <div className="appWrapper"> 
       {/* <div id="heroimg" alt="background"> */}
         <Router>
-          <Header /> 
+          <Header mode={mode} toggleMode = {toggleMode}/> 
           <MediaQuery minWidth={1024}>
             <SideBar /> 
           </MediaQuery>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { AboutData } from '../contentData';
 
-function About({about}) {
+function About({About}) {
     return (
     <div id="aboutWrapper" className="container-fluid flex-column d-flex">
       <div className="d-flex justify-content-center">

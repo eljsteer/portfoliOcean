@@ -11,6 +11,14 @@ function Header() {
           </button>
           <Navigation />
         </div>
+        <div id="modeSwitch" class="form-check form-switch">
+          <input 
+            class="form-check-input" t
+            type="checkbox" 
+            role="switch" 
+            id="flexSwitchCheckDefault">
+          </input>
+        </div>
       </div>
     </nav>
   )
