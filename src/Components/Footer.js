@@ -6,6 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { BsFileEarmarkCode, BsFileEarmarkArrowDown } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { HiOutlineMail, HiOutlineMailOpen } from "react-icons/hi";
+import "./Views/CSS/HeadFeetandSideCSS.css"
 // import { TbPhone, TbPhoneCall } from "react-icons/tb"
 // import { FaStackOverflow } from "react-icons/fa"
 

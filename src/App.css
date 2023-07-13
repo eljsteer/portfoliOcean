@@ -12,10 +12,6 @@
   display: none;
 }
 
-.appWrapper {
-  background-color: rgb(0, 7, 31);
-}
-
 /* * {
   color: rgb(0, 7, 31);
 } */
@@ -23,6 +19,7 @@
 * {
   color: white;
 }
+
 #modeSwitch {
   position: absolute;
   /* top: 10px; */
@@ -99,289 +96,19 @@
   background-color: rgb(255, 255, 255);
 }
 
+#navBarToggler button {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
 .navbar-toggler-icon {
   color: black;
   border-color: black;
 }
 
 #navHeader {
-  background: rgba(0, 0, 0, 0.35);
-}
-
-/* 
->>--------->>->>--------->>
-    HomePage CSS
->>--------->>->>--------->>
-*/
-
-#homeHeader {
-  margin: 30px;
-}
-
-#keyProjectContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-#keyProjectBox {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  max-width: 800px;
-  border-radius: 5px;
-}
-
-#keyProjectImg {
-  display: block;
-  width:100%;
-  border-radius: 5px;
-}
-
-#HomeWrapper {
-  text-align: center;
-}
-
-/* 
->>--------->>->>--------->>
-    About Me CSS
->>--------->>->>--------->>
-*/
-
-#aboutWrapper {
-  text-align: center;
-}
-
-#aboutPhoto {
-  border-radius: 100%;
-  margin: 5vh, 0;
-  padding: 20px;
-  max-width: 100%;
-  height: auto;
-}
-
-#aboutMeDescr {
-  line-height: 2;
-  font-size: 1.25em;
-  color: var(--DarkModeText);
-}
-
-/* 
->>--------->>->>--------->>
-    Projects CSS
->>--------->>->>--------->>
-*/
-.projectImg {
-  height: 100%;
-  display: block;
-  position: relative;
-  object-fit: cover;
-  border-radius: 5px;
-}
-
-.projectBox {
-  border: none;
-  background: rgba(0, 0, 0, 0.85);
-}
-
-.projectsContainer {
-  flex-wrap: wrap;
-}
-
-.imageOverlay {
-  position: absolute;
-  background: rgba(0, 0, 0, 0.85);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity 0.3s;
-  border-radius: 5px;
-}
-
-.imageOverlay > * {
-  transform: translateY(20px);
-  transition: transform 0.3s;
-}
-
-.imageOverlay:hover {
-  opacity: 1;
-}
-.imageOverlay:hover > * {
-  transform: translateY(0);
-}
-
-.appButtons {
-  margin:0 1em 0.8em 0;
-  max-width: 200px;
-  max-height: 100px;
-}
-
-.projectBttn:hover {
-  transition: 0.3s;
-  border: none;
-  background-color:var(--ThemeColor);
-}
-/* 
->>--------->>->>--------->>
-    Resume & Skills CSS
->>--------->>->>--------->>
-*/
-
-#subtitle {
-  font-size: 1.3em;
-}
-
-#downloadBttn {
-  width: 200px;
-  margin-top: 10px;
-}
-.resumeDownload {
-  margin: 10px 0px;
-  width: 100%;
-}
-
-#skillsContainer {
-  aspect-ratio: 6/5;
-  align-content: center;
-  align-items: center;
-  border-radius: 10px;
-  background: rgba(0, 0, 0, 0.6);
-  flex-wrap: wrap;
-}
-
-#resumeContainer {
-  border: 3px solid #fff;
-  border-radius: 10%;
-}
-
-.resumeIcon {
-  margin:25px;
-  max-width: 100%;
-  height: auto;
-}
-.resumeIcon img {
-  max-width: 100%;
-  height: auto;
-}
-
-.wrapper img:hover {
-  background-color:rgb(0, 204, 255);
-  border-radius: 5px;
-  box-shadow:
-    0 0 5px var(--ThemeColor),
-    0 0 10px var(--ThemeColor),
-    0 0 15px var(--ThemeColor),
-    0 0 20px var(--ThemeColor),
-    0 0 40px var(--ThemeColor),
-    0 0 60px var(--ThemeColor);
-}
-
-/* 
->>--------->>->>--------->>
-    CONTACTS CSS
->>--------->>->>--------->>
-*/
-
-#contactWrapper {
-  text-align: center;
-}
-
-.detailsContainer {
-  border: #fff solid 2px;
-}
-
-.contactLabels {
-  margin: 50px 0px 15px 0px;
-  font-size: 24px;
-}
-
-#formContainer {
-  border-radius: 25px;
-  padding-left: 70px;
-  padding-right: 70px;
-  background: rgba(0, 0, 0, 0.6);
-}
-
-#contactDetails {
-  border: 3px solid #fff;
-}
-
-#submitButton {
-  border:3px solid #fff;
-  margin: 20px 0px ;
-}
-
-/* 
->>--------->>->>--------->>
-    SIDEBAR  CSS 
->>--------->>->>--------->>
-*/
-
-#sideBar {
-  display: flex;
-  flex-direction: column;
-  width: fit-content;
-  position: fixed;
-  top: 50%;
-  right: 0%;
-  margin-right: 20px;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  transform: translateX(0%);
-}
-
-li {
-  list-style: none;
-}
-
-.contactIconBox {
-  padding: 8px;
-  margin: 10px;
-  border-radius: 50%;
-  background-color:var(--ThemeColor);
-}
-
-.contactIconBox:hover {
-  background-color: rgb(0, 7, 31);
-}
-
-/* 
->>--------->>->>--------->>
-    FOOTER  CSS 
->>--------->>->>--------->>
-*/
-
-#footerWrapper {
-  text-align: center;
-}
-
-#contactBarList {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.footerIconBox {
-  padding: 6px;
-  margin: 5px;
-  border-radius: 50%;
-  background-color:var(--ThemeColor);
-}
-
-#wLove {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  white-space: pre;
-  flex-wrap: wrap;
-  color: white;
-}
-
-#wLove span {
-  color: rgba(255, 130, 130, 0.979);
+  background: rgba(0, 0, 0, 0.75);
 }
 
 /* 

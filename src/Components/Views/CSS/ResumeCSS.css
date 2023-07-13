@@ -1,0 +1,54 @@
+/* 
+>>--------->>->>--------->>
+    Resume & Skills CSS
+>>--------->>->>--------->>
+*/
+
+#subtitle {
+  font-size: 1.3em;
+}
+
+#downloadBttn {
+  width: 200px;
+  margin-top: 10px;
+}
+.resumeDownload {
+  margin: 10px 0px;
+  width: 100%;
+}
+
+#skillsContainer {
+  aspect-ratio: 6/5;
+  align-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  flex-wrap: wrap;
+}
+
+#resumeContainer {
+  border: 3px solid #fff;
+  border-radius: 10%;
+}
+
+.resumeIcon {
+  margin:25px;
+  max-width: 100%;
+  height: auto;
+}
+.resumeIcon img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper img:hover {
+  background-color:rgb(0, 204, 255);
+  border-radius: 5px;
+  box-shadow:
+    0 0 5px var(--ThemeColor),
+    0 0 10px var(--ThemeColor),
+    0 0 15px var(--ThemeColor),
+    0 0 20px var(--ThemeColor),
+    0 0 40px var(--ThemeColor),
+    0 0 60px var(--ThemeColor);
+}

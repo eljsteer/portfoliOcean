@@ -1,6 +1,7 @@
 import React from 'react';
 import { KeyProject, ProjectData } from "../contentData";
 import ProjectCard from '../projectCard';
+import "./CSS/ProjectsCSS.css";
 
 function Projects() {
   return (

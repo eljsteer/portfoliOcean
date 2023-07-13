@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { SkillsData, ResumeFile } from '../contentData';
+import "./CSS/ResumeCSS.css";
 
 function Resume() {
 

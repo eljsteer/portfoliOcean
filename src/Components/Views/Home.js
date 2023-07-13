@@ -1,5 +1,6 @@
 import React from 'react';
 import { AboutData } from '../contentData';
+import "./CSS/HomepageCSS.css";
 
 function Home() {
     return (

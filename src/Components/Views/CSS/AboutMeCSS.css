@@ -1,0 +1,23 @@
+/* 
+>>--------->>->>--------->>
+    About Me CSS
+>>--------->>->>--------->>
+*/
+
+#aboutWrapper {
+  text-align: center;
+}
+
+#aboutPhoto {
+  border-radius: 100%;
+  margin: 5vh, 0;
+  padding: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+#aboutMeDescr {
+  line-height: 2;
+  font-size: 1.25em;
+  color: var(--DarkModeText);
+}

@@ -1,0 +1,57 @@
+/* 
+>>--------->>->>--------->>
+    Projects CSS
+>>--------->>->>--------->>
+*/
+.projectImg {
+  height: 100%;
+  display: block;
+  position: relative;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.projectBox {
+  border: none;
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.projectsContainer {
+  flex-wrap: wrap;
+}
+
+.imageOverlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+  border-radius: 5px;
+}
+
+.imageOverlay > * {
+  transform: translateY(20px);
+  transition: transform 0.3s;
+}
+
+.imageOverlay:hover {
+  opacity: 1;
+}
+.imageOverlay:hover > * {
+  transform: translateY(0);
+}
+
+.appButtons {
+  margin:0 1em 0.8em 0;
+  max-width: 200px;
+  max-height: 100px;
+}
+
+.projectBttn:hover {
+  transition: 0.3s;
+  border: none;
+  background-color:var(--ThemeColor);
+}

@@ -1,0 +1,32 @@
+/* 
+>>--------->>->>--------->>
+    HomePage CSS
+>>--------->>->>--------->>
+*/
+
+#homeHeader {
+  margin: 30px;
+}
+
+#keyProjectContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#keyProjectBox {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 800px;
+  border-radius: 5px;
+}
+
+#keyProjectImg {
+  display: block;
+  width:100%;
+  border-radius: 5px;
+}
+
+#HomeWrapper {
+  text-align: center;
+}

@@ -1,0 +1,72 @@
+
+/* 
+>>--------->>->>--------->>
+    SIDEBAR  CSS 
+>>--------->>->>--------->>
+*/
+
+#sideBar {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  position: fixed;
+  top: 50%;
+  right: 0%;
+  margin-right: 20px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  transform: translateX(0%);
+}
+
+li {
+  list-style: none;
+}
+
+.contactIconBox {
+  padding: 8px;
+  margin: 10px;
+  border-radius: 50%;
+  background-color:var(--ThemeColor);
+}
+
+.contactIconBox:hover {
+  background-color: rgb(0, 7, 31);
+}
+
+/* 
+>>--------->>->>--------->>
+    FOOTER  CSS 
+>>--------->>->>--------->>
+*/
+
+#footerWrapper {
+  text-align: center;
+}
+
+#contactBarList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footerIconBox {
+  padding: 6px;
+  margin: 5px;
+  border-radius: 50%;
+  background-color:var(--ThemeColor);
+}
+
+#wLove {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  white-space: pre;
+  flex-wrap: wrap;
+  color: white;
+}
+
+#wLove span {
+  color: rgba(255, 130, 130, 0.979);
+}
