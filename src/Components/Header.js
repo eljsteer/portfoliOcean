@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "./Navigation";
-import toggleMode from "../App"
 import "./Views/CSS/HeadFeetandSideCSS.css";
+// import toggleMode from "../App"
 
 function Header() {
   return (
@@ -13,7 +13,7 @@ function Header() {
           </button>
           <Navigation />
         </div>
-        <div id="modeSwitch" class="form-check form-switch">
+        {/* <div id="modeSwitch" class="form-check form-switch">
           <input 
             class="form-check-input"
             type="checkbox" 
@@ -21,11 +21,10 @@ function Header() {
             id="flexSwitchCheckDefault"
             onClick={toggleMode}>
           </input>
-        </div>
+        </div> */}
       </div>
     </nav>
   )
-
 }
 
 export default Header ;

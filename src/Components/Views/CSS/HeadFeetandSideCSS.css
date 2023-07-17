@@ -27,7 +27,10 @@ li {
   padding: 8px;
   margin: 10px;
   border-radius: 50%;
-  background-color:var(--ThemeColor);
+}
+
+#dark .contactIconBox {
+  background-color: var(--darkThemeColor);
 }
 
 .contactIconBox:hover {
@@ -55,7 +58,10 @@ li {
   padding: 6px;
   margin: 5px;
   border-radius: 50%;
-  background-color:var(--ThemeColor);
+}
+
+#dark .footerIconBox {
+  background-color:var(--darkThemeColor);
 }
 
 #wLove {
